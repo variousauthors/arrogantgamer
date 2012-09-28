@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2012-09-17T18:58:34-07:00</updated>
+  <updated>2012-09-27T19:36:30-07:00</updated>
   <id>http://yoursite.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,60 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Become the Biggest]]></title>
+    <link href="http://yoursite.com/blog/2012/09/22/osmos/"/>
+    <updated>2012-09-22T18:28:00-07:00</updated>
+    <id>http://yoursite.com/blog/2012/09/22/osmos</id>
+    <content type="html"><![CDATA[<p>Notes: small game, just deserves a small review. Touch on features that are good in games, like how
+self explanatory it is. Relate it to another game?</p>
+
+<p>You could almost play Osmos with no more instruction: this maxim and a few clicks of the mouse are more than enough.
+Osmos does insist on spelling things out for us: the first few levels teach us explicitly how to maneuver in the
+world. I can forgive this though, maybe because it is a fairly abstract game with no pressing need to establish
+suspension of disbelief.</p>
+
+<p>There are three &#8216;zones&#8217;, collections of levels each of which give you a different flavor of game play. The
+ambient &#8216;vanilla&#8217; levels build on the theme of &#8216;become the biggest&#8217;. The other two zones change game play
+by introducing new elements: artificial lifeforms for you to compete with; and force attractors that act
+as a center of gravity. I still haven&#8217;t figured out how to beat the force attractor levels, but the ambient
+and survival levels are great! Beating three ai motes at once is tricky, and took me several tries.</p>
+
+<p>Osmos contains one of my favorite underused mechanics: patience. I can
+understand why this mechanic doesn&#8217;t get a lot of use. In Braid it was
+presented only to the most hardcore, and in SS&amp;S EP it was an opt-in
+system. In both cases, you didn&#8217;t have to play the waiting game if you
+didn&#8217;t want to&#8230; but in Osmos you better get used to it. In the force
+attractor levels you are in orbit around a central goo ball, and you
+want to be the biggest. Playing these levels I felt like I had close
+to zero agency. &#8220;Hey man still in orbit around the force attractor?&#8221;
+&#8220;yeah, how bout you?&#8221; &#8220;yup. OK well, see you next time around.&#8221; With
+each tearfully slow revolution you might pick up a tiny bit of mass,
+and in this manner you grow. Admittedly, Osmos does give you the option
+of speeding up time, which I discovered late in the levels by accident
+(I don&#8217;t pay much attention to written instructions); even on fast
+forward you still end up spinning in circles for an eternity before
+you finally have enough mass to just leave and make a sandwich while
+you become the biggest. Great game! But listen, that&#8217;s not all it takes.</p>
+
+<p>In addition to patience, the game rewards the &#8216;letting go&#8217;. I guess it
+is a very eastern-religion game in some sense: if you are aiming at
+a particular goo ball, and in your clumsy sputtering you manage to
+miss the mark, then you had better just let go. You could come to a full
+stop and reverse your momentum, or try to come around for a second pass,
+but in doing so you lose more than you probably will gain. The best
+thing to do when you lose something (like in real life) is to adjust your
+plan.</p>
+
+<p>Patience: become the biggest, and never look back.</p>
+
+<p>of which introduces a new element: opponents that behave
+in one way or another; force attractors around which all the motes orbit;</p>
+
+<p>The next few give us toy examples of the game&#8217;s &#8216;zones&#8217;, each of which tests us by introducing new elements.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[First Post]]></title>
