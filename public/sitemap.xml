@@ -1,19 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://yoursite.com/blog/2012/09/17/first-post/</loc>
+        <loc>http://arrogantgamer.com/blog/2012/09/17/first-post/</loc>
         <lastmod>2012-09-17T18:58:27-07:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/blog/2012/09/22/osmos/</loc>
-        <lastmod>2012-09-26T21:48:55-07:00</lastmod>
+        <loc>http://arrogantgamer.com/blog/2012/09/22/osmos/</loc>
+        <lastmod>2012-09-29T12:52:43-07:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/blog/archives/</loc>
-        <lastmod>2012-09-26T21:48:55-07:00</lastmod>
+        <loc>http://arrogantgamer.com/blog/2012/09/29/patience-and-regret/</loc>
+        <lastmod>2012-09-29T12:51:15-07:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/</loc>
-        <lastmod>2012-09-26T21:48:55-07:00</lastmod>
+        <loc>http://arrogantgamer.com/blog/archives/</loc>
+        <lastmod>2012-09-29T12:52:43-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://arrogantgamer.com/</loc>
+        <lastmod>2012-09-29T12:52:43-07:00</lastmod>
     </url>
 </urlset>
