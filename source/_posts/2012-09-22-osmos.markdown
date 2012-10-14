@@ -3,6 +3,7 @@ layout: post
 title: "Become the Biggest"
 date: 2012-09-22 18:28
 comments: true
+published: false
 categories: Osmos
 ---
 

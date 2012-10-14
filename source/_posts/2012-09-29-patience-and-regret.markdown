@@ -3,6 +3,7 @@ layout: post
 title: "Patience and Regret"
 date: 2012-09-29 12:49
 comments: true
+published: false
 categories: Osmos
 ---
 
