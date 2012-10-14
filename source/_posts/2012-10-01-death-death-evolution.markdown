@@ -37,5 +37,3 @@ about ghosts or demons or something.
 This is the only game I've played from Ludum Dare 24. I like the theme of
 Evolution (as a child, EVO was one of my favourite games), so I imagine 
 there are others that I should probably check out.
-
-
