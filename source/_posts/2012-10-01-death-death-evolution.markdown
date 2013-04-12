@@ -4,7 +4,7 @@ title: "Death Death Evolution"
 date: 2012-10-01 19:35
 comments: true
 published: false
-categories: "Ludum&nbsp;Dare"
+categories: "Ludum&nbsp;Dare", "DDE"
 ---
 
 Interesting learning experience! I had it spoiled a little by reading 
@@ -35,6 +35,6 @@ balloons with my head). Maybe someone could take the mechanic of dying
 for personal gain, switch up the theme a bit, and make a truely golden game
 about ghosts or demons or something. 
 
-This is the only game I've played from Ludum Dare 24. I like the theme of
+At the time of writing, this is the only game I've played from Ludum Dare 24. I like the theme of
 Evolution (as a child, EVO was one of my favourite games), so I imagine 
 there are others that I should probably check out.
