@@ -4,7 +4,7 @@ title: "Vision by Proxy"
 date: 2013-04-06 21:49
 comments: true
 published: false
-categories: "Vision&nbsp;by&nbsp;Proxy", "DDE"
+categories: ["Vision by Proxy", "DDE"]
 ---
 
 In Vision by Proxy, you are a nearly blind extra-terrestrial who sees by

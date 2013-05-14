@@ -1,6 +1,41 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
+html {
+  background-image: url("/images/ziggy.png");
+  background-position: -1028px 52px;
+  background-repeat: repeat-x;
+  background-color: white;
+  min-height: 3285px;
+}
+
+hgroup {
+  text-align:right;
+}
+
+hgroup > h1 > a {
+  color: black;
+}
+
 body > header {
   background:none;
+}
+
+/* roundedness
+ * the top right and left corners of the content well are rounded
+ */
+#main {
+  border-radius: 10px 10px 0 0;
+}
+
+#content, .blog-index {
+  border-radius: 10px 0 0 0;
+}
+
+aside {
+  border-radius: 0 10px 0 0;
+}
+
+.toggle-sidebar:hover {
+  border-radius: 0 10px 0 0;
 }

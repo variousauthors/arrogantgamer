@@ -4,7 +4,7 @@ title: "Death Death Evolution"
 date: 2012-10-01 19:35
 comments: true
 published: false
-categories: "Ludum&nbsp;Dare", "DDE"
+categories: ["Ludum Dare", "DDE"]
 ---
 
 Interesting learning experience! I had it spoiled a little by reading 
