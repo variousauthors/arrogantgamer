@@ -15,6 +15,8 @@ often find your way into buildings. A child's world is full of magic, and
 floating cloud platforms. In this way, to progress through this platformer,
 you must collect eyes.
 
+{% img left-side /images/vision-by-proxy.png %}
+
 I talk about how this game fixes what was wrong with Death Death Evolution
 
 I talk about how I would have liked to have the sense that I was identifying
