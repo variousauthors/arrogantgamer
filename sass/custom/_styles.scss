@@ -9,6 +9,10 @@ html {
   min-height: 3285px;
 }
 
+body {
+  max-width:none;
+}
+
 hgroup {
   text-align:right;
 }
@@ -19,6 +23,13 @@ hgroup > h1 > a {
 
 body > header {
   background:none;
+}
+
+header > small {
+  color: #AAAAAA;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0.2em 0 0;
 }
 
 img.left-side {
@@ -35,6 +46,26 @@ img.left-side {
  */
 #main {
   border-radius: 10px 10px 0 0;
+  max-width:1200px;
+}
+
+body > footer {
+  max-width:1200px;
+  padding-left:0;
+  padding-right:0;
+  margin:0 auto;
+}
+
+body > footer p {
+  margin-left: 25px;
+}
+
+blockquote {
+  font-size: small;
+}
+
+.feathers {
+  margin-left:15px;
 }
 
 #content, .blog-index {
