@@ -2,8 +2,8 @@
 layout: post
 title: "Become the Biggest"
 date: 2012-09-22 18:28
-comments: true
-published: false
+comments: false
+published: true
 categories: Osmos
 ---
 
@@ -16,6 +16,8 @@ to tap X rapidly or whatnot. Unless the appearance of language is consistent wit
 levels (there are two) because I think Osmos is an excellent example of how easily a great beginning can
 turn foul.
 
+<!-- more -->
+
 Starting a game with a quote by a physicist or philosopher is a great idea: it sets the stage, and fills my mind
 with well grounded ideas. No better way to quickly build a framework in which a player's understanding
 of the theme and action can grow, than by analogy. Osmos begins with a quote by Newton that has acquired
@@ -24,6 +26,8 @@ great cultural weight, and has as much meaning in ethics as it does in physics. 
 Then, fade in to a beautiful blue orb, pulsing and swimming with activity. What is this? Is this the universe? Is this
 life itself, or God? No, the game corrects us: "This is you". Beautiful! OK! Now I know what kind of game
 this is and who I am, just give me a goal and I'm off!
+
+{% img left-side /images/this-is-you.png %}
 
 Aiming for the home run, Osmos zooms out, and shows us what we need to do: "Propel yourself to the blue
 circle and come to a stop". For me, a smooth introduction like this is the sweetest thing. I rarely
@@ -36,7 +40,9 @@ Shouldn't something happen when I click? Oh wait... I see what's up. Osmos doesn
 I am and where I should go: it is too humble (or something) to anticipate that I could have understood by now
 just based on the theme and visuals. So, reluctantly, I press the space bar one more time.
 
-"*Hey, listen!* You navigate by aligning the cursor behind you and pressing the left mouse button"
+{% blockquote %}
+"Hey, listen! You navigate by aligning the cursor behind you and pressing the left mouse button"
+{% endblockquote %}
 
 Arglebargle!!! I love Osmos: great game. I'm just so, so, so disappointed when that little sprite
 shows up in every game I play to remind me of what I already know. I've never read a novel or watched a
@@ -53,8 +59,3 @@ with these little blue balls I can shove around. Oh shit I got bigger! Ha, and t
 to win!
 
 See: no need to instruct. Hey! Are you listening?
-
-Ok that's the last I will complain about what I see as Osmos's only flaw (a tiny tiny flaw). Tune in next
-time for my otherwise 100% positive opinion of the rest of Osmos.
-
-

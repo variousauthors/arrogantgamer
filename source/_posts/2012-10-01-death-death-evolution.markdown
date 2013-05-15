@@ -2,39 +2,32 @@
 layout: post
 title: "Death Death Evolution"
 date: 2012-10-01 19:35
-comments: true
-published: false
-categories: ["Ludum Dare", "DDE"]
+comments: false
+published: true
+categories: ["Ludum Dare", "LD24", "DDE"]
 ---
 
-Interesting learning experience! I had it spoiled a little by reading 
-a review (like this one) ahead of time, but basically the game does a 
-good job of teaching you how to play. I have an interesting complaint
-that, admittedly, is forming in my mind as I write this. In a lot of 
-platformers, you die and that teaches you what not to do... and if the
-deaths are really inevitable (like some of the ones in Limbo), that 
-kind of pisses me off. For example, in Limbo there is a bit with crushers
-that is exactly designed so that no matter how clever you are you won't 
-make it through on your first try (well... maybe someone out there 
-is this clever). That pisses me off because I like the feeling that I 
-have all the pieces of the puzzle laid out before me, so that with 
-patience and wisdom I will be able to out-smart death.
-
 In Death Death Evolution, there is no escape. You must die to advance.
-Am I upset by this? No, after some thought I realize that I am instead
-pleased: this game proposes a new relationship between the platform
+This game proposes a new relationship between the platform
 jumper and the pits. In later stages I was actively looking for places
-where I could die in a particular way, in order to unlock the tools I 
+where I could die in a particular way, in order to unlock the tools I
 might need later. There are even levels where you can die in irrelevant
 ways, if you choose to, so that if you want to you can be stingy with death,
-or feed her to bursting in order to fully 'power up'. 
+or feed her to bursting in order to fully 'power up'.
 
-Nice game: I want more. More different animals, evolution abilities that 
+<!-- more -->
+
+Nice game: I want more. More different animals, evolution abilities that
 make more sense (I mean... I fell on spikes and could subsequently break
-balloons with my head). Maybe someone could take the mechanic of dying
-for personal gain, switch up the theme a bit, and make a truely golden game
-about ghosts or demons or something. 
+balloons with my head). I think we could take the mechanic of dying
+for personal gain, switch up the theme a bit, and make a truly golden game
+about ghosts or reincarnation or something.
 
-At the time of writing, this is the only game I've played from Ludum Dare 24. I like the theme of
-Evolution (as a child, EVO was one of my favourite games), so I imagine 
-there are others that I should probably check out.
+For example: let the player control people who are in touch with the spirit world. Mediums.
+You lead them about, and when they come in contact with a ghost they take on
+some aspect of that ghost's former life. At first, there are not ghosts and only
+a collection of living mediums. The player strategically kills off her mediums,
+forcing them to haunt the place of their death but also allowing later mediums to
+proceed further through the game. Perhaps there is an economy of souls, such that
+a player must be careful who is killed when.
+
