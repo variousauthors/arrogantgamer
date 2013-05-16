@@ -38,7 +38,7 @@ where to go, naturally I start clicking.
 Nothing... click, click, click! Wait what? But I thought every action had an equal and opposite reaction?
 Shouldn't something happen when I click? Oh wait... I see what's up. Osmos doesn't care if I understand what
 I am and where I should go: it is too humble (or something) to anticipate that I could have understood by now
-just based on the theme and visuals. So, reluctantly, I press the space bar one more time.
+just based on the theme and visuals. So, reluctantly, I press the spacebar one more time.
 
 {% blockquote %}
 "Hey, listen! You navigate by aligning the cursor behind you and pressing the left mouse button"
