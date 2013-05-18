@@ -1,5 +1,7 @@
 <h2><a href="http://salty-peak-4341.herokuapp.com/">Mandala</a></h2>
 
+{% img right-side /images/mandala.png %}
+
 Mandala was my entry for the 26th Ludum Dare (theme: minimalism). It is the first game I ever made, and its humble but visible reception has had a tremendous impact on me personally.
 
 Mandala is also a platform for publishing text adventures that fade away the more people play them. The first game published with Mandala is still technically online, but all the content has long since faded away and it is now just a mess of non-breaking whitespace.

@@ -3,6 +3,7 @@
 // If you need a handy color picker try http://hslpicker.com
 
 $link-color: lighten(#e44609, 3) !default;
+$link-color-visited: desaturate($link-color, 60%)  !default;
 //$header-bg: #AA0000;
 //$subtitle-color: lighten($header-bg, 58);
 //$nav-bg: desaturate(lighten(#271e1f, 18), 5);

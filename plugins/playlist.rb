@@ -10,7 +10,8 @@ module Jekyll
       output = "<ul id='playlist'>"
       playlist = YAML.load_file(File.expand_path("../../_playlist.yaml"))
       playlist['games'].each do |game| 
-        output += "<li class='game'><a href=" + game['url'] + ">" + game['name'] + "</a></li>"
+        output += "<li class='game'><a href=" + game['url'] + ">" + game['name'] + "</a></br>"
+        output += "<small>" + game['brief'] + "</small></li>"
       end
 
       output += "</ul>"

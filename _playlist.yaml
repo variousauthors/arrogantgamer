@@ -2,12 +2,28 @@
 games:
  - name: Two Brothers
    url: http://www.kickstarter.com/projects/ackkstudios/two-brothers-0
+   brief: 'GBC era adventure RPG'
 
  - name: Antichamber
    url: http://www.antichamber-game.com/
+   brief: 'mind-bending first-person puzzler'
 
  - name: That Dragon, Cancer
    url: http://thatdragoncancer.com/
+   brief: 'a personal account and adventure'
 
  - name: Papo and yo
    url: http://store.steampowered.com/app/227080/
+   brief: 'fairy tale in a Brazilian shanty town'
+
+ - name: Kairo
+   url: http://kairo.lockeddoorpuzzle.com/
+   brief: 'atmospheric 3D puzzling'
+
+ - name: Fez
+   url: http://polytroncorporation.com/buy-fez
+   brief: 'awaiting blurb'
+
+ - name: Remembering
+   url: http://rememberingthegame.com/
+   brief: 'poetic exploration game'
