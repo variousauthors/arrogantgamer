@@ -5,6 +5,7 @@ date: 2013-05-15 23:37
 comments: false
 published: true
 categories: ["Ludum Dare", "LD26", "Paul S. Burgess"]
+external-url: http://paulsburgess.co.uk/browser-games/pyramid/
 ---
 
 Many LD26 games chose to incorporate the theme of Minimalism by being visually simple. Pyramid was visually simple as a consequence of being minimalist. Burgess chose to strip away the unnecessary elements of a rogue-like, and left us with a stunning piece of work. I will dwell on the degree to which Burgess hit the theme.

@@ -4,8 +4,8 @@ title: "Vision by Proxy"
 date: 2013-04-06 21:49
 comments: false
 published: true
-categories: ["Vision by Proxy", "DDE"]
-external-url: http://www.hobbygamedev.com/games/vision-by-proxy-2nd-edition/
+categories: ["Vision by Proxy", "DDE", "imagine"]
+external-url: http://www.visionbyproxy.com/
 ---
 
 In Vision by Proxy, you are a nearly blind extraterrestrial who sees by

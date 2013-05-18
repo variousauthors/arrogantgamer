@@ -4,7 +4,9 @@ title: "Become the Biggest"
 date: 2012-09-22 18:28
 comments: false
 published: true
-categories: Osmos
+categories: ["Osmos"]
+external-url: http://www.hemispheregames.com/osmos/
+subtitle: 'their website sucks, eh?'
 ---
 
 You could play Osmos with no more instruction: the imperative to grow will guide you naturally
