@@ -1,27 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://arrogantgamer.com/blog/2012/09/17/first-post/</loc>
-        <lastmod>2012-09-17T18:58:27-07:00</lastmod>
-    </url>
-    <url>
         <loc>http://arrogantgamer.com/blog/2012/09/22/osmos/</loc>
-        <lastmod>2012-10-02T19:39:55-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://arrogantgamer.com/blog/2012/09/29/patience-and-regret/</loc>
-        <lastmod>2012-09-29T12:51:15-07:00</lastmod>
+        <lastmod>2013-05-20T20:29:02-07:00</lastmod>
     </url>
     <url>
         <loc>http://arrogantgamer.com/blog/2012/10/01/death-death-evolution/</loc>
-        <lastmod>2012-10-13T17:05:41-07:00</lastmod>
+        <lastmod>2013-05-18T00:08:03-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://arrogantgamer.com/blog/2013/04/06/vision-by-proxy/</loc>
+        <lastmod>2013-05-18T00:03:47-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://arrogantgamer.com/blog/2013/05/15/minimalism-pyramid/</loc>
+        <lastmod>2013-05-20T20:29:03-07:00</lastmod>
     </url>
     <url>
         <loc>http://arrogantgamer.com/blog/archives/</loc>
-        <lastmod>2012-10-13T17:05:41-07:00</lastmod>
+        <lastmod>2013-05-20T20:29:03-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://arrogantgamer.com/games/</loc>
+        <lastmod>2013-05-15T13:31:15-07:00</lastmod>
     </url>
     <url>
         <loc>http://arrogantgamer.com/</loc>
-        <lastmod>2012-10-13T17:05:41-07:00</lastmod>
+        <lastmod>2013-05-20T20:29:03-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://arrogantgamer.com/about/</loc>
+        <lastmod>2013-05-15T13:31:15-07:00</lastmod>
     </url>
 </urlset>

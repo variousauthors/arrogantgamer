@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Osmos | Arrogant Gamer]]></title>
   <link href="http://arrogantgamer.com/blog/categories/osmos/atom.xml" rel="self"/>
   <link href="http://arrogantgamer.com/"/>
-  <updated>2012-10-13T17:24:37-07:00</updated>
+  <updated>2013-05-20T20:36:28-07:00</updated>
   <id>http://arrogantgamer.com/</id>
   <author>
     <name><![CDATA[Arrogant Gamer]]></name>
@@ -12,52 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Patience and Regret]]></title>
-    <link href="http://arrogantgamer.com/blog/2012/09/29/patience-and-regret/"/>
-    <updated>2012-09-29T12:49:00-07:00</updated>
-    <id>http://arrogantgamer.com/blog/2012/09/29/patience-and-regret</id>
-    <content type="html"><![CDATA[<p>There are three 'zones', collections of levels each of which give you a different flavor of game play. The
-ambient 'vanilla' levels build on the theme of 'become the biggest'. The other two zones change game play
-by introducing new elements: artificial lifeforms for you to compete with; and force attractors that act
-as a center of gravity. I still haven't figured out how to beat the force attractor levels, but the ambient
-and survival levels are great! Beating three ai motes at once is tricky, and took me several tries.</p>
-
-<p>Osmos contains one of my favorite underused mechanics: patience. I can
-understand why this mechanic doesn't get a lot of use. In Braid it was
-presented only to the most hardcore, and in SS&amp;S EP it was an opt-in
-system. In both cases, you didn't have to play the waiting game if you
-didn't want to... but in Osmos you better get used to it. In the force
-attractor levels you are in orbit around a central goo ball, and you
-want to be the biggest. Playing these levels I felt like I had close
-to zero agency. "Hey man still in orbit around the force attractor?"
-"yeah, how bout you?" "yup. OK well, see you next time around." With
-each tearfully slow revolution you might pick up a tiny bit of mass,
-and in this manner you grow. Admittedly, Osmos does give you the option
-of speeding up time, which I discovered late in the levels by accident
-(I don't pay much attention to written instructions); even on fast
-forward you still end up spinning in circles for an eternity before
-you finally have enough mass to just leave and make a sandwich while
-you become the biggest. Great game! But listen, that's not all it takes.</p>
-
-<p>In addition to patience, the game rewards the 'letting go'. I guess it
-is a very eastern-religion game in some sense: if you are aiming at
-a particular goo ball, and in your clumsy sputtering you manage to
-miss the mark, then you had better just let go. You could come to a full
-stop and reverse your momentum, or try to come around for a second pass,
-but in doing so you lose more than you probably will gain. The best
-thing to do when you lose something (like in real life) is to adjust your
-plan.</p>
-
-<p>Patience: become the biggest, and never look back.</p>
-
-<p>of which introduces a new element: opponents that behave
-in one way or another; force attractors around which all the motes orbit;</p>
-
-<p>The next few give us toy examples of the game's 'zones', each of which tests us by introducing new elements.</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Become the Biggest]]></title>
@@ -73,6 +27,9 @@ to tap X rapidly or whatnot. Unless the appearance of language is consistent wit
 levels (there are two) because I think Osmos is an excellent example of how easily a great beginning can
 turn foul.</p>
 
+<!-- more -->
+
+
 <p>Starting a game with a quote by a physicist or philosopher is a great idea: it sets the stage, and fills my mind
 with well grounded ideas. No better way to quickly build a framework in which a player's understanding
 of the theme and action can grow, than by analogy. Osmos begins with a quote by Newton that has acquired
@@ -81,6 +38,8 @@ great cultural weight, and has as much meaning in ethics as it does in physics. 
 <p>Then, fade in to a beautiful blue orb, pulsing and swimming with activity. What is this? Is this the universe? Is this
 life itself, or God? No, the game corrects us: "This is you". Beautiful! OK! Now I know what kind of game
 this is and who I am, just give me a goal and I'm off!</p>
+
+<p><img class="left-side" src="/images/this-is-you.png"></p>
 
 <p>Aiming for the home run, Osmos zooms out, and shows us what we need to do: "Propel yourself to the blue
 circle and come to a stop". For me, a smooth introduction like this is the sweetest thing. I rarely
@@ -91,9 +50,9 @@ where to go, naturally I start clicking.</p>
 <p>Nothing... click, click, click! Wait what? But I thought every action had an equal and opposite reaction?
 Shouldn't something happen when I click? Oh wait... I see what's up. Osmos doesn't care if I understand what
 I am and where I should go: it is too humble (or something) to anticipate that I could have understood by now
-just based on the theme and visuals. So, reluctantly, I press the space bar one more time.</p>
+just based on the theme and visuals. So, reluctantly, I press the spacebar one more time.</p>
 
-<p>"<em>Hey, listen!</em> You navigate by aligning the cursor behind you and pressing the left mouse button"</p>
+<p><blockquote><p>"Hey, listen! You navigate by aligning the cursor behind you and pressing the left mouse button"</p></blockquote></p>
 
 <p>Arglebargle!!! I love Osmos: great game. I'm just so, so, so disappointed when that little sprite
 shows up in every game I play to remind me of what I already know. I've never read a novel or watched a
@@ -110,9 +69,6 @@ with these little blue balls I can shove around. Oh shit I got bigger! Ha, and t
 to win!</p>
 
 <p>See: no need to instruct. Hey! Are you listening?</p>
-
-<p>Ok that's the last I will complain about what I see as Osmos's only flaw (a tiny tiny flaw). Tune in next
-time for my otherwise 100% positive opinion of the rest of Osmos.</p>
 ]]></content>
   </entry>
   

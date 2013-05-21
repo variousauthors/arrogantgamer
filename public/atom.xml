@@ -4,7 +4,7 @@
   <title><![CDATA[Arrogant Gamer]]></title>
   <link href="http://arrogantgamer.com/atom.xml" rel="self"/>
   <link href="http://arrogantgamer.com/"/>
-  <updated>2012-10-13T17:24:37-07:00</updated>
+  <updated>2013-05-20T20:36:28-07:00</updated>
   <id>http://arrogantgamer.com/</id>
   <author>
     <name><![CDATA[Arrogant Gamer]]></name>
@@ -14,87 +14,100 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Minimalism: Pyramid]]></title>
+    <link href="http://arrogantgamer.com/blog/2013/05/15/minimalism-pyramid/"/>
+    <updated>2013-05-15T23:37:00-07:00</updated>
+    <id>http://arrogantgamer.com/blog/2013/05/15/minimalism-pyramid</id>
+    <content type="html"><![CDATA[<p>Many LD26 games chose to incorporate the theme of Minimalism by being visually simple. Pyramid was visually simple as a consequence of being minimalist. Burgess chose to strip away the unnecessary elements of a rogue-like, and left us with a stunning piece of work. I will dwell on the degree to which Burgess hit the theme.</p>
+
+<!-- more -->
+
+
+<p><img class="left-side" src="http://arrogantgamer.com/images/pyramid.png"></p>
+
+<p>Minimalism presents something similar to prototype. I think that word has a bit of baggage: evoking an incomplete or fragile &#8216;first try&#8217; that is a basis for greater efforts. Prototypes aren&#8217;t just a quick slap job, they must also be the minimal viable product. That&#8217;s why projects start as prototypes, but it is not to say that we can&#8217;t also start with something bigger and then shave it down to a prototype. This is how I understood the LD26 theme, and I think that Burgess really expressed it well in Pyramid.</p>
+
+<p><img class="left-side" src="http://arrogantgamer.com/images/hooked-lash.png">
+<img class="right-side" src="http://arrogantgamer.com/images/one-of-the-corrupted.png"></p>
+
+<p>Pyramid&#8217;s levels are squares of randomly generated passages; the hero&#8217;s vision is limited, so when the levels start to get really big it starts to feel really murky. If Pyramid&#8217;s levels didn&#8217;t grow, we wouldn&#8217;t understand the name. If Pyramid were called another name, we wouldn&#8217;t understand why the levels grow. Remove either element and what remains doesn&#8217;t make sense. Very little is embellished in Pyramid; there is very little excess. That&#8217;s not to say there isn&#8217;t anything left that could still be stripped away: burgess named things. Numbers appear on the screen to indicate the damage the hero deals or takes: this is enough to express the gradual powering up of the hero. Burgess, however, chose to name the different power levels. For example, in Pyramid &#8220;10&#8221; is called &#8220;Imperious Axe of Truth&#8221;. The monsters are also named.</p>
+
+<p>In terms of how the game plays: it is smooth and fun. The game teaches us all the necessary mechanics in the first 3 levels, and then just gets tougher and tougher. The only thing that is left to us to discover is how combat works. I found out around level 12 that if you touch an enemy you attack it. That&#8217;s not all though: unlike a run-of-the-mill rogue-like, it is possible to dance with enemies and outwit them. For me this is great: the game is not just a resource management slog, it involves patience and wit as well.</p>
+
+<p>The game goes on forever, but I&#8217;ve been assured that level 48 is the last time any new content is introduced.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Vision by Proxy]]></title>
+    <link href="http://arrogantgamer.com/blog/2013/04/06/vision-by-proxy/"/>
+    <updated>2013-04-06T21:49:00-07:00</updated>
+    <id>http://arrogantgamer.com/blog/2013/04/06/vision-by-proxy</id>
+    <content type="html"><![CDATA[<p>In Vision by Proxy, you are a nearly blind extraterrestrial who sees by
+stealing human eyes. When you steal a pair of eyes, looking out through them
+gives you a different perspective on the world. A child&#8217;s world is full
+of magic, while an engineer sees the hidden uses of things. To progress
+through the game, you must collect eyes.</p>
+
+<!-- more -->
+
+
+<p><img class="left-side" src="http://arrogantgamer.com/images/vision-by-proxy.png"></p>
+
+<p>Your alien character does not power up by collecting eyes. Instead you gradually
+gain access to different interpretations of the level&#8217;s layout. Thus, ideally,
+the game is about remembering that you can more easily climb the little girl&#8217;s
+play-fort then the anime chick&#8217;s Japanese temple. Some perspectives give you access
+to the insides of things, or to a variety of floating platforms.</p>
+
+<p>This game has evolved quite a bit since its initial incarnation, and some of my
+complaints have been addressed. In the original game there were only four eyes to
+collect, but in the more recent &#8220;Ms Vision by Proxy&#8221; (a sequel) we are introduced
+to seven or so. This is good. When we enter a level we aren&#8217;t certain what eyes
+will be available, and only after developing a vocabulary of game objects we can begin
+to predict what eyes we need in order to progress.</p>
+
+<p>That being said, it suffers from the levels being too big for the hero: the gameplay
+is a little like a metroidvania, but the RPG elements are not played up enough for trekking back and forth across
+the level to really be exciting. In addition, the puzzles are not really difficult or
+focused and solving them ends up feeling inevitable. This game needs an overworld map, or teleportation, or something
+to make the player feel like they are gathering information towards eventually solving
+the puzzle, rather than just walking back and forth.</p>
+
+<p>In an earlier post I proposed a game about mediums. I think merging the theme of
+Death-Death-Evolution and the mechanics of Vision by Proxy would be cool. Imagine with me:</p>
+
+<blockquote class='imagine-with-me'><p>You play as a group of characters positioned all around a level, separated by time and space (that is, no two characters exist at the same time). There is no central alien collector, instead you can switch between the characters and each can explore a small part of the level. Sometimes the levels laid out differently in different times, much like the way different eyes affect the level layouts in VBP. Some of the characters are fenced in by an obstacle that they can&#8217;t overcome, but that another character could.</p><p>This solves the problem of the level size &#8211; the player can now take in all (or most) the of the terrain features at once, right at the start of the level.  Now we add the DDE element: in order to advance, the player moves the free characters into areas their abilities allow them to reach, and then suicides them in some manner provided by the level. When the player flips to the other characters, there is now a ghost haunting the site of the death. Since the characters are mediums, they are able to tap into these spirits and gain the abilities that they need to move through the level. Gradually, and with much planning, the remaining characters move about the level collecting and combining spirits until they are able to reach the goal (whatever that happens to be).</p></blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Death Death Evolution]]></title>
     <link href="http://arrogantgamer.com/blog/2012/10/01/death-death-evolution/"/>
     <updated>2012-10-01T19:35:00-07:00</updated>
     <id>http://arrogantgamer.com/blog/2012/10/01/death-death-evolution</id>
-    <content type="html"><![CDATA[<p>Interesting learning experience! I had it spoiled a little by reading
-a review (like this one) ahead of time, but basically the game does a
-good job of teaching you how to play. I have an interesting complaint
-that, admittedly, is forming in my mind as I write this. In a lot of
-platformers, you die and that teaches you what not to do&#8230; and if the
-deaths are really inevitable (like some of the ones in Limbo), that
-kind of pisses me off. For example, in Limbo there is a bit with crushers
-that is exactly designed so that no matter how clever you are you won&#8217;t
-make it through on your first try (well&#8230; maybe someone out there
-is this clever). That pisses me off because I like the feeling that I
-have all the pieces of the puzzle laid out before me, so that with
-patience and wisdom I will be able to out-smart death.</p>
-
-<p>In Death Death Evolution, there is no escape. You must die to advance.
-Am I upset by this? No, after some thought I realize that I am instead
-pleased: this game proposes a new relationship between the platform
+    <content type="html"><![CDATA[<p>In Death Death Evolution, there is no escape. You must die to advance.
+This game proposes a new relationship between the platform
 jumper and the pits. In later stages I was actively looking for places
 where I could die in a particular way, in order to unlock the tools I
 might need later. There are even levels where you can die in irrelevant
 ways, if you choose to, so that if you want to you can be stingy with death,
 or feed her to bursting in order to fully &#8216;power up&#8217;.</p>
 
+<!-- more -->
+
+
+<p><img class="right-side" src="http://arrogantgamer.com/images/dde.png"></p>
+
 <p>Nice game: I want more. More different animals, evolution abilities that
 make more sense (I mean&#8230; I fell on spikes and could subsequently break
-balloons with my head). Maybe someone could take the mechanic of dying
-for personal gain, switch up the theme a bit, and make a truely golden game
-about ghosts or demons or something.</p>
+balloons with my head). I think we could take the mechanic of dying
+for personal gain, switch up the theme a bit, and make a truly golden game
+about ghosts or reincarnation or something.</p>
 
-<p>This is the only game I&#8217;ve played from Ludum Dare 24. I like the theme of
-Evolution (as a child, EVO was one of my favourite games), so I imagine
-there are others that I should probably check out.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Patience and Regret]]></title>
-    <link href="http://arrogantgamer.com/blog/2012/09/29/patience-and-regret/"/>
-    <updated>2012-09-29T12:49:00-07:00</updated>
-    <id>http://arrogantgamer.com/blog/2012/09/29/patience-and-regret</id>
-    <content type="html"><![CDATA[<p>There are three &#8216;zones&#8217;, collections of levels each of which give you a different flavor of game play. The
-ambient &#8216;vanilla&#8217; levels build on the theme of &#8216;become the biggest&#8217;. The other two zones change game play
-by introducing new elements: artificial lifeforms for you to compete with; and force attractors that act
-as a center of gravity. I still haven&#8217;t figured out how to beat the force attractor levels, but the ambient
-and survival levels are great! Beating three ai motes at once is tricky, and took me several tries.</p>
+<blockquote class='imagine-with-me'><p>Let the player control people who are in touch with the spirit world. Mediums.<br/>You lead them about, and when they come in contact with a ghost they take on<br/>some aspect of that ghost&#8217;s former life. At first, there are not ghosts and only<br/>a collection of living mediums. The player strategically kills off her mediums,<br/>forcing them to haunt the place of their death but also allowing later mediums to<br/>proceed further through the game. Perhaps there is an economy of souls, such that<br/>a player must be careful who is killed when.</p></blockquote>
 
-<p>Osmos contains one of my favorite underused mechanics: patience. I can
-understand why this mechanic doesn&#8217;t get a lot of use. In Braid it was
-presented only to the most hardcore, and in SS&amp;S EP it was an opt-in
-system. In both cases, you didn&#8217;t have to play the waiting game if you
-didn&#8217;t want to&#8230; but in Osmos you better get used to it. In the force
-attractor levels you are in orbit around a central goo ball, and you
-want to be the biggest. Playing these levels I felt like I had close
-to zero agency. &#8220;Hey man still in orbit around the force attractor?&#8221;
-&#8220;yeah, how bout you?&#8221; &#8220;yup. OK well, see you next time around.&#8221; With
-each tearfully slow revolution you might pick up a tiny bit of mass,
-and in this manner you grow. Admittedly, Osmos does give you the option
-of speeding up time, which I discovered late in the levels by accident
-(I don&#8217;t pay much attention to written instructions); even on fast
-forward you still end up spinning in circles for an eternity before
-you finally have enough mass to just leave and make a sandwich while
-you become the biggest. Great game! But listen, that&#8217;s not all it takes.</p>
-
-<p>In addition to patience, the game rewards the &#8216;letting go&#8217;. I guess it
-is a very eastern-religion game in some sense: if you are aiming at
-a particular goo ball, and in your clumsy sputtering you manage to
-miss the mark, then you had better just let go. You could come to a full
-stop and reverse your momentum, or try to come around for a second pass,
-but in doing so you lose more than you probably will gain. The best
-thing to do when you lose something (like in real life) is to adjust your
-plan.</p>
-
-<p>Patience: become the biggest, and never look back.</p>
-
-<p>of which introduces a new element: opponents that behave
-in one way or another; force attractors around which all the motes orbit;</p>
-
-<p>The next few give us toy examples of the game&#8217;s &#8216;zones&#8217;, each of which tests us by introducing new elements.</p>
 ]]></content>
   </entry>
   
@@ -112,6 +125,9 @@ to tap X rapidly or whatnot. Unless the appearance of language is consistent wit
 levels (there are two) because I think Osmos is an excellent example of how easily a great beginning can
 turn foul.</p>
 
+<!-- more -->
+
+
 <p>Starting a game with a quote by a physicist or philosopher is a great idea: it sets the stage, and fills my mind
 with well grounded ideas. No better way to quickly build a framework in which a player&#8217;s understanding
 of the theme and action can grow, than by analogy. Osmos begins with a quote by Newton that has acquired
@@ -120,6 +136,8 @@ great cultural weight, and has as much meaning in ethics as it does in physics. 
 <p>Then, fade in to a beautiful blue orb, pulsing and swimming with activity. What is this? Is this the universe? Is this
 life itself, or God? No, the game corrects us: &#8220;This is you&#8221;. Beautiful! OK! Now I know what kind of game
 this is and who I am, just give me a goal and I&#8217;m off!</p>
+
+<p><img class="left-side" src="http://arrogantgamer.com/images/this-is-you.png"></p>
 
 <p>Aiming for the home run, Osmos zooms out, and shows us what we need to do: &#8220;Propel yourself to the blue
 circle and come to a stop&#8221;. For me, a smooth introduction like this is the sweetest thing. I rarely
@@ -130,9 +148,10 @@ where to go, naturally I start clicking.</p>
 <p>Nothing&#8230; click, click, click! Wait what? But I thought every action had an equal and opposite reaction?
 Shouldn&#8217;t something happen when I click? Oh wait&#8230; I see what&#8217;s up. Osmos doesn&#8217;t care if I understand what
 I am and where I should go: it is too humble (or something) to anticipate that I could have understood by now
-just based on the theme and visuals. So, reluctantly, I press the space bar one more time.</p>
+just based on the theme and visuals. So, reluctantly, I press the spacebar one more time.</p>
 
-<p>&#8220;<em>Hey, listen!</em> You navigate by aligning the cursor behind you and pressing the left mouse button&#8221;</p>
+<blockquote><p>&#8220;Hey, listen! You navigate by aligning the cursor behind you and pressing the left mouse button&#8221;</p></blockquote>
+
 
 <p>Arglebargle!!! I love Osmos: great game. I&#8217;m just so, so, so disappointed when that little sprite
 shows up in every game I play to remind me of what I already know. I&#8217;ve never read a novel or watched a
@@ -149,18 +168,6 @@ with these little blue balls I can shove around. Oh shit I got bigger! Ha, and t
 to win!</p>
 
 <p>See: no need to instruct. Hey! Are you listening?</p>
-
-<p>Ok that&#8217;s the last I will complain about what I see as Osmos&#8217;s only flaw (a tiny tiny flaw). Tune in next
-time for my otherwise 100% positive opinion of the rest of Osmos.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[First Post]]></title>
-    <link href="http://arrogantgamer.com/blog/2012/09/17/first-post/"/>
-    <updated>2012-09-17T18:58:00-07:00</updated>
-    <id>http://arrogantgamer.com/blog/2012/09/17/first-post</id>
-    <content type="html"><![CDATA[<p>Whoa!</p>
 ]]></content>
   </entry>
   
