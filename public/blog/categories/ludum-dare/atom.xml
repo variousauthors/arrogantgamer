@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Ludum Dare | Arrogant Gamer]]></title>
-  <link href="http://arrogantgamer.com/blog/categories/ludum-dare/atom.xml" rel="self"/>
-  <link href="http://arrogantgamer.com/"/>
-  <updated>2013-05-21T09:55:03-07:00</updated>
-  <id>http://arrogantgamer.com/</id>
+  <link href="http://www.arrogantgamer.com/blog/categories/ludum-dare/atom.xml" rel="self"/>
+  <link href="http://www.arrogantgamer.com/"/>
+  <updated>2013-05-21T10:13:23-07:00</updated>
+  <id>http://www.arrogantgamer.com/</id>
   <author>
     <name><![CDATA[Arrogant Gamer]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Two LD26 Entries]]></title>
-    <link href="http://arrogantgamer.com/blog/2013/05/20/two-ld26-entries/"/>
+    <link href="http://www.arrogantgamer.com/blog/2013/05/20/two-ld26-entries/"/>
     <updated>2013-05-20T18:09:00-07:00</updated>
-    <id>http://arrogantgamer.com/blog/2013/05/20/two-ld26-entries</id>
+    <id>http://www.arrogantgamer.com/blog/2013/05/20/two-ld26-entries</id>
     <content type="html"><![CDATA[<p><a href="http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&amp;uid=5275">DOE</a> and <a href="http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&amp;uid=2297">Bashland</a> are two LD26 games feel amazingly polished given that they were made in 48 hours. Bashland describes itself as a "Breakout Mario Mashup", and does an incredible job of being just that. DOE takes place in a detailed and nuanced world, in which dreams can touch reality.</p>
 
 <!-- more -->
@@ -51,9 +51,9 @@
   
   <entry>
     <title type="html"><![CDATA[Minimalism: Pyramid]]></title>
-    <link href="http://arrogantgamer.com/blog/2013/05/15/minimalism-pyramid/"/>
+    <link href="http://www.arrogantgamer.com/blog/2013/05/15/minimalism-pyramid/"/>
     <updated>2013-05-15T23:37:00-07:00</updated>
-    <id>http://arrogantgamer.com/blog/2013/05/15/minimalism-pyramid</id>
+    <id>http://www.arrogantgamer.com/blog/2013/05/15/minimalism-pyramid</id>
     <content type="html"><![CDATA[<p>Many LD26 games chose to incorporate the theme of Minimalism by being visually simple. Pyramid was visually simple as a consequence of being minimalist. Burgess chose to strip away the unnecessary elements of a rogue-like, and left us with a stunning piece of work. I will dwell on the degree to which Burgess hit the theme.</p>
 
 <!-- more -->
@@ -76,9 +76,9 @@
   
   <entry>
     <title type="html"><![CDATA[Death Death Evolution]]></title>
-    <link href="http://arrogantgamer.com/blog/2012/10/01/death-death-evolution/"/>
+    <link href="http://www.arrogantgamer.com/blog/2012/10/01/death-death-evolution/"/>
     <updated>2012-10-01T19:35:00-07:00</updated>
-    <id>http://arrogantgamer.com/blog/2012/10/01/death-death-evolution</id>
+    <id>http://www.arrogantgamer.com/blog/2012/10/01/death-death-evolution</id>
     <content type="html"><![CDATA[<p>In Death Death Evolution, there is no escape. You must die to advance.
 This game proposes a new relationship between the platform
 jumper and the pits. In later stages I was actively looking for places
