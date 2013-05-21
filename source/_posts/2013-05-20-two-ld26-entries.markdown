@@ -3,7 +3,7 @@ layout: post
 title: "Two LD26 Entries"
 date: 2013-05-20 18:09
 comments: false
-published: false
+published: true
 categories: ["LD26", "Ludum Dare", "DOE", "Bashland"]
 subtitle: 'that completely blew my mind'
 whototweetat: [ "@McFunkypants" ]
