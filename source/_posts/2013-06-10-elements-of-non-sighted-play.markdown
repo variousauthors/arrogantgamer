@@ -8,11 +8,51 @@ categories: ['imagine']
 subtitle: "There are people, and then there are sighted people."
 ---
 
-I recently played four games that involved elements of non-sighted play. These were [Conversion][1], [Traal][2], and [You Must Escape][3].
+I recently played four games that involved elements of non-sighted play. These were [Conversion][1], [Traal][2], and [You Must Escape][3], and picked
+up on an interesting phenomenon.
 
-You Must Escape was one of my favorite games of the jam (it was one of everyone's favorites). It was moody, minimal, fun to control, 
-and punishingly hard! That being said, it also exemplifies this interesting phenomenon. We all love the idea of audiogames, but isn't it
-a little perverse to be making inaccessible audiogames?
+Conversion is a 1st (or possibly 3rd) person shooter that uses non of the visual cues FPS players have been trained to use. The screen is black at all times,
+except when messages concerning the state of the environment are displayed, these being "you bumped into a wall!" or "there is something soft and wet at your feet".
+The rest of the game information is conveyed with audio cues, such as a dripping noise, your own heartbeat, or a gunshot. These effects are presented using 3D audio,
+so that the player wearing headphones can effectively navigate to the source of a sound effect by positioning it directly in front and moving forward. Man, you should
+stop reading this and just play the damn game, that would be easier.
+
+The game takes place in some kind of maze or building, the nature of which I never understood. Moving through the maze is tricky because it is hard to tell where
+a wall stops and a corner begins. I often found myself moving by pushing up against a wall (which causes "hey listen! You bumped into a wall!") to be displayed
+continuously on the screen), and sliding along it until I found the corner. This seems like a realistic behaviour for a non-sighted person in an unfamiliar space, so
+I commend the designer for making this technique occur to me.
+
+Audio cues used in the game are gritty and emotional: water dripping in an empty room, a scratching noise, and a heartbeat are all very visceral. When I heard the gunshot
+noise for the first time I literally leapt from my chair. After that I kept my tongue tucked behind my teeth in anticipation of more punishing audio to come.
+
+{% img left-side /images/traal.jpg "Traal" %}
+
+Traal is an interesting reversal of the stealth game genre that takes place in a dungeon filled with spikes. The hero has a flashlight, and wherever she turns
+the flashlight shines. If the flashlight lights up a monster, the hero freaks the fuck out and the player loses control of her for a moment. In a dungeon filled
+with spikes, this momentary loss of control can mean death. Interestingly, the monsters (while deadly) never seem particularly interested in the hero, and ultimately
+the enemy is her fear of the environment. Later in the game, she finds a blindfold and things get interesting. When the hero is wearing the blindfold, she can't see
+anything and the screen goes black. Now the player can still maneuver, and the monsters are still deadly, but the hero won't freak out.
+
+The blindfold introduces an element of non-sighted play: the player now has the option of switching from sighted to non-sighted, and there are benefits to both.
+In many rooms it is easy enough to memorize the layout and then feel your way through, but some rooms are too complicated for this to be effective.
+
+{% img right-side /images/you-must-escape.jpg "You Must Escape" %}
+
+You Must Escape was one of my favorite games of the jam (it was one of everyone's favorites). It was moody, minimal, fun to control, and punishingly hard. The
+game models navigation by echo-location, representing sound as (sigh) point particles that emanate out from the source of the sound. This is really compelling!
+Just moving around in the environment creates footsteps that are essentially explosions of little white particles, which bounce off the contours of the rooms
+and hallways, giving you a sense of their shape. You can also press the spacebar to make an intentional sound, which is louder the longer you hold the spacebar, or
+hold shift to creep, producing no sound. In addition to topography, you also get a sense of the 'texture' of rooms, because the particles change colour depending
+on the texture of the reflective surface. The textures presented in the game world are: grey for nothing, red for danger, and white for goal.
+
+This by itself would be a fun game, but You Must Escape takes it further by introducing horrifying echo beasts: a source of sound that produces red particles, and
+registers as danger. These creatures are mobile, and track toward the source of a sound. The later levels are extremely difficult, as you must often stay completely
+still or navigate blindly by "creeping" around the level. In any case, the sound effects generated by echo beasts in motion are horrible alien noises, and the hero's
+death-rattle is so awful that I found myself dreading death (actually, I gave up in the end: this game is too scary for me).
+
+In the three games above, and in a short list of other games, elements of non-sighted play are either used directly or modelled visually. In all
+three cases players have embraced and commended the use of non-sighted play, but in every case the game remains acccessible only to a sighted gamer
+audience.
 
 Reading the comments to You Must Escape was neat: so many comments, but no-one commented on the inherent irony of the game. One commenter
 in particular said:
@@ -34,3 +74,18 @@ Did a bit of research last night. These are called audiogames (naturally). So wh
 
 I recently played three games that experiment with non-sighted play.  A game about echolocation that tries to show the player that it is possible to navigate a space by bouncing  waves off of walls.  It wasn't great: the author  hose to represent the waves visually as curved lines,  but the wave physics just wasn't there to really make it shine.  It ended up just being hard,  and significantly, it is not playable by people who out are not sighted. Had the wave physics been more involved it could have been a good demonstration of how echolocation works,  and it could have gradually trained the player off of its graphics and introduced truly non-sighted play. 
 The next game was traal and it presented a memory based navigation mechanic. In traal the player is trying to avoid seeing enemies.  This is a subtle departure from traditional stealth-em-ups :the player has a flash light and it always points ahead of her. If the light falls on a monster,  the player loses control of their character, which freaks out and runs about randomly. This usually results in death as the levels are littered with spikes. The non-sighted play comes in when the player finds a blindfold. This gives them the option of Inspecting an area,  learning the enemies movement patterns, and then navigating blindly by memory. This again is not accessible gameplay,  but it does explore the phenomena of mentally mapping an area and navigating by memory. 
+
+Outline
+I played these three games, and a couple more.
+They fall into two categories: games that use non-sighted play and games that model non-sighted play.
+For those that use elements of non-sighted play, it feels ironic that they are no accessible.
+For those that model non-sighted play, it is still ironic that they are only sighted games, but the model itself is interesting enough.
+Of these games, those that were entered in Ludum Dare scored very high for innovation.
+But audiogames have been a thing for a while.
+A bit of talk about audio games.
+A bit about the popularity of IF.
+Conclude by saying what I want to see: games for people. This includes IF
+
+Imagine: noise game.
+ - a noise game uses punishingly loud or disruptive audio, mixed with vitally important subtle quiet sounds.
+ - At first the punishing noise is rare and the game is much like Conversion, but as it goes on it becomes apparent that torturing the player is the goal.
