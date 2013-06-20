@@ -6,14 +6,17 @@ comments: false
 published: true
 categories: ['imagine']
 subtitle: "There are people, and then there are sighted people."
+whototweetat: [ "@spiridios", "@whitingjp", "@Draknek" ]
 ---
+
+{% audio http://www.dailywav.com/0613/howDisappointing.wav %}
 
 I recently played four games that involved elements of non-sighted play. These were [Conversion][1], [Traal][2], and [You Must Escape][3], and picked
 up on an interesting phenomenon.
 
 Conversion is a 1st (or possibly 3rd) person shooter that uses non of the visual cues FPS players have been trained to use. The screen is black at all times,
 except when messages concerning the state of the environment are displayed, these being "you bumped into a wall!" or "there is something soft and wet at your feet".
-The rest of the game information is conveyed with audio cues, such as a dripping noise, your own heartbeat, or a gunshot. These effects are presented using 3D audio,
+The rest of the game information is conveyed with audio cues, such as a dripping noise, your own heartbeat, or a gunshot. These effects are presented using positional audio,
 so that the player wearing headphones can effectively navigate to the source of a sound effect by positioning it directly in front and moving forward. Man, you should
 stop reading this and just play the damn game, that would be easier.
 
@@ -24,6 +27,9 @@ I commend the designer for making this technique occur to me.
 
 Audio cues used in the game are gritty and emotional: water dripping in an empty room, a scratching noise, and a heartbeat are all very visceral. When I heard the gunshot
 noise for the first time I literally leapt from my chair. After that I kept my tongue tucked behind my teeth in anticipation of more punishing audio to come.
+
+"You cannot see, so you must complete the game using only your sense of hearing and sense of touch."
+"I love the concept that I proved." -- conversion guy http://www.ludumdare.com/compo/2013/04/30/conversion-post-mortem/
 
 {% img left-side /images/traal.jpg "Traal" %}
 
@@ -36,7 +42,7 @@ anything and the screen goes black. Now the player can still maneuver, and the m
 The blindfold introduces an element of non-sighted play: the player now has the option of switching from sighted to non-sighted, and there are benefits to both.
 In many rooms it is easy enough to memorize the layout and then feel your way through, but some rooms are too complicated for this to be effective.
 
-{% img right-side /images/you-must-escape.jpg "You Must Escape" %}
+{% img center /images/you-must-escape.png "You Must Escape" %}
 
 You Must Escape was one of my favorite games of the jam (it was one of everyone's favorites). It was moody, minimal, fun to control, and punishingly hard. The
 game models navigation by echo-location, representing sound as (sigh) point particles that emanate out from the source of the sound. This is really compelling!
@@ -60,8 +66,8 @@ in particular said:
 "I'm so bad at these blind sound-dependent games. I wish I was better at them. Good job."
 
 [1]: http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&uid=1158
-[2]:
-[3]: http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&uid=22774
+[2]: http://jonathanwhiting.com/coding/traal/
+[3]: http://rac7.com/YouMustEscape/
 
 Let's get one thing straight.  There are people,  and then there are sighted people. People have trouble playing video games because most games are made for super human folk. Regular people just don't have access to the cognitive tools necessary to play most games.  I have the fortune of eyeing able to count myself among the sighted,  and recently I played a few games that  involved temporary suppression of my powers.  
 None of these games were accessible trip  normal people,  but they all approached this. They presented game play in which the player has to rely on sound or memory of a place to navigate. 
