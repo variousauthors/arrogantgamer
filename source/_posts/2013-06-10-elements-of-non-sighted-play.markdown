@@ -1,46 +1,41 @@
 ---
 layout: post
 title: "Elements of non-sighted play"
-date: 2013-06-10 21:53
+date: 2013-06-25 21:53
 comments: false
-published: true
+published: false
 categories: ['imagine']
 subtitle: "There are people, and then there are sighted people."
 whototweetat: [ "@spiridios", "@whitingjp", "@Draknek" ]
 ---
 
-{% audio http://www.dailywav.com/0613/howDisappointing.wav %}
+Let's face it, video games are not for people: they are for sighted people. I recently played four games that involved elements of non-sighted play.
+These were [Conversion][1], [Traal][2], and [You Must Escape][3], and they succeed in being about accessibility without being accessible.
 
-I recently played four games that involved elements of non-sighted play. These were [Conversion][1], [Traal][2], and [You Must Escape][3], and picked
-up on an interesting phenomenon.
+<!-- more -->
 
-Conversion is a 1st (or possibly 3rd) person shooter that uses non of the visual cues FPS players have been trained to use. The screen is black at all times,
+The following games are great: I enjoyed playing them immensely, but they got me thinking. Both of these games provides us with a non-sighted experience, and each
+game received praise for its innovative game play. However, both games fail to be accessible to the audience whose disability they are presenting. The irony of this
+got me thinking, andthe fruits of my thoughts will be available below. First, though, the games!
+
+{% img center /images/conversion.png "Conversion" %}
+
+{% pullquote %}
+[Conversion][1] is a 1st (or possibly 3rd) person shooter that uses non of the visual cues FPS players have been trained to use. The screen is black at all times,
 except when messages concerning the state of the environment are displayed, these being "you bumped into a wall!" or "there is something soft and wet at your feet".
 The rest of the game information is conveyed with audio cues, such as a dripping noise, your own heartbeat, or a gunshot. These effects are presented using positional audio,
-so that the player wearing headphones can effectively navigate to the source of a sound effect by positioning it directly in front and moving forward. Man, you should
-stop reading this and just play the damn game, that would be easier.
+so that the player wearing headphones can effectively navigate to the source of a sound by positioning it directly in front of them and moving forward. {" You should really
+skip this and just play the damn game, that would be easier. "}
 
 The game takes place in some kind of maze or building, the nature of which I never understood. Moving through the maze is tricky because it is hard to tell where
-a wall stops and a corner begins. I often found myself moving by pushing up against a wall (which causes "hey listen! You bumped into a wall!") to be displayed
+a wall stops and a corner begins. I often found myself moving by pushing up against a wall (which causes "hey listen! You bumped into a wall!" to be displayed
 continuously on the screen), and sliding along it until I found the corner. This seems like a realistic behaviour for a non-sighted person in an unfamiliar space, so
 I commend the designer for making this technique occur to me.
 
 Audio cues used in the game are gritty and emotional: water dripping in an empty room, a scratching noise, and a heartbeat are all very visceral. When I heard the gunshot
-noise for the first time I literally leapt from my chair. After that I kept my tongue tucked behind my teeth in anticipation of more punishing audio to come.
-
-"You cannot see, so you must complete the game using only your sense of hearing and sense of touch."
-"I love the concept that I proved." -- conversion guy http://www.ludumdare.com/compo/2013/04/30/conversion-post-mortem/
-
-{% img left-side /images/traal.jpg "Traal" %}
-
-Traal is an interesting reversal of the stealth game genre that takes place in a dungeon filled with spikes. The hero has a flashlight, and wherever she turns
-the flashlight shines. If the flashlight lights up a monster, the hero freaks the fuck out and the player loses control of her for a moment. In a dungeon filled
-with spikes, this momentary loss of control can mean death. Interestingly, the monsters (while deadly) never seem particularly interested in the hero, and ultimately
-the enemy is her fear of the environment. Later in the game, she finds a blindfold and things get interesting. When the hero is wearing the blindfold, she can't see
-anything and the screen goes black. Now the player can still maneuver, and the monsters are still deadly, but the hero won't freak out.
-
-The blindfold introduces an element of non-sighted play: the player now has the option of switching from sighted to non-sighted, and there are benefits to both.
-In many rooms it is easy enough to memorize the layout and then feel your way through, but some rooms are too complicated for this to be effective.
+noise for the first time I literally leapt from my chair. After that I kept my tongue tucked behind my teeth in anticipation of more punishing audio to come. This is
+and effective and excellent game, and it was well received during LD26.
+{% endpullquote %}
 
 {% img center /images/you-must-escape.png "You Must Escape" %}
 
@@ -66,8 +61,10 @@ in particular said:
 "I'm so bad at these blind sound-dependent games. I wish I was better at them. Good job."
 
 [1]: http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&uid=1158
-[2]: http://jonathanwhiting.com/coding/traal/
 [3]: http://rac7.com/YouMustEscape/
+
+"You cannot see, so you must complete the game using only your sense of hearing and sense of touch."
+"I love the concept that I proved." -- conversion guy http://www.ludumdare.com/compo/2013/04/30/conversion-post-mortem/
 
 Let's get one thing straight.  There are people,  and then there are sighted people. People have trouble playing video games because most games are made for super human folk. Regular people just don't have access to the cognitive tools necessary to play most games.  I have the fortune of eyeing able to count myself among the sighted,  and recently I played a few games that  involved temporary suppression of my powers.  
 None of these games were accessible trip  normal people,  but they all approached this. They presented game play in which the player has to rely on sound or memory of a place to navigate. 

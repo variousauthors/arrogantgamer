@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Ravenous"
+date: 2013-06-24 21:53
+comments: false
+published: true
+categories: ['Traal', 'mobile']
+subtitle: "Beind scared will kill you brain?"
+whototweetat: [ "@whitingjp", "@Draknek" ]
+---
+
+The creators of [Niña Nueve][3] ([@whitingjp][6]) and [These Robotic Hearts of Mine][4] ([@Draknek][7]; an all time favorite of mine) comes [Traal][2], the
+lovecraftian reverse stealth-em-up action puzzler for mobile and flash. Could we ask for anything more? A blindfold, perhaps?
+
+<!-- More -->
+
+{% img left-side /images/traal.jpg "Traal" %}
+
+[Traal][2] is an interesting reversal of the stealth game genre that takes place in a dungeon filled with spikes. The hero has a flashlight, and wherever she turns
+the flashlight shines. If the flashlight lights up a monster, the hero freaks the fuck out and the player loses control of her for a moment. In a dungeon filled
+with spikes, this momentary loss of control can mean death. Interestingly, the monsters (while deadly) rarely seem particularly interested in the hero, and ultimately
+the enemy is her fear of the environment. Later in the game, she finds a blindfold and things get interesting. When the hero is wearing the blindfold, she can't see
+anything and the screen goes black. Now the player can still maneuver, and the monsters are still deadly, but the hero won't freak out.
+
+The blindfold introduces an element of non-sighted play: the player now has the option of switching from sighted to non-sighted, and there are benefits to both.
+In many rooms it is easy enough to memorize the layout and then feel your way through, but some rooms are too complicated for this to be effective.
+
+[2]: http://jonathanwhiting.com/coding/traal/
+[3]: http://jonathanwhiting.com/ld/23/
+[4]: http://www.newgrounds.com/portal/view/585599
+[5]: http://www.draknek.org/games/traal/
+[6]: https://twitter.com/whitingjp
+[7]: https://twitter.com/draknek
