@@ -4,7 +4,7 @@ title: "Ravenous"
 date: 2013-06-24 21:53
 comments: false
 published: true
-categories: ['Traal', 'mobile']
+categories: ['Traal', 'mobile', 'stealth', 'reverse', 'non-sighted']
 subtitle: "Beind scared will kill you brain?"
 whototweetat: [ "@whitingjp", "@Draknek" ]
 ---
@@ -22,8 +22,15 @@ with spikes, this momentary loss of control can mean death. Interestingly, the m
 the enemy is her fear of the environment. Later in the game, she finds a blindfold and things get interesting. When the hero is wearing the blindfold, she can't see
 anything and the screen goes black. Now the player can still maneuver, and the monsters are still deadly, but the hero won't freak out.
 
-The blindfold introduces an element of non-sighted play: the player now has the option of switching from sighted to non-sighted, and there are benefits to both.
+{% pullquote %}
+
+{" The blindfold introduces an element of non-sighted play "}: the player now has the option of switching from sighted to non-sighted, and there are benefits to both.
 In many rooms it is easy enough to memorize the layout and then feel your way through, but some rooms are too complicated for this to be effective.
+
+The pace of this game is excellent, and it does an excellent job of wordlessly teaching the player how to play. I hope that one day that won't bare saying, but [as we've seen][8], even the most abstract games can mess this up. I especially love the feeling I get in Traal when walking into a trickier version of an early lesson. I
+can almost hear the authors saying, "ok, but now the walls are spikes".
+
+{% endpullquote %}
 
 [2]: http://jonathanwhiting.com/coding/traal/
 [3]: http://jonathanwhiting.com/ld/23/
@@ -31,3 +38,4 @@ In many rooms it is easy enough to memorize the layout and then feel your way th
 [5]: http://www.draknek.org/games/traal/
 [6]: https://twitter.com/whitingjp
 [7]: https://twitter.com/draknek
+[8]: http://localhost:4000/blog/2012/09/22/osmos/

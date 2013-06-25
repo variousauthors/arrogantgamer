@@ -102,3 +102,9 @@ aside {
 .toggle-sidebar:hover {
   border-radius: 0 10px 0 0;
 }
+
+.header.h-card.p-author,
+.u-url.permalink.customisable-highlight,
+.footer.customisable-border {
+  display:none!important;
+}
