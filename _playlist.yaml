@@ -34,8 +34,12 @@ games:
 
  - name: EvoLand
    url: http://evoland.shirogames.com/
-   brief: ''
+   brief: 'a brief history of RPGs'
 
  - name: Perspective
    url: http://www.seewithperspective.com/
    brief: 'that russian doll game'
+
+ - name: Remember Me
+   url: http://www.rememberme.com/
+   brief: 'cyberpunk as it aught to be'
