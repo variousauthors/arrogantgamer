@@ -27,8 +27,9 @@ anything and the screen goes black. Now the player can still maneuver, and the m
 {" The blindfold introduces an element of non-sighted play "}: the player now has the option of switching from sighted to non-sighted, and there are benefits to both.
 In many rooms it is easy enough to memorize the layout and then feel your way through, but some rooms are too complicated for this to be effective.
 
-The pace of this game is excellent, and it does an excellent job of wordlessly teaching the player how to play. I hope that one day that won't bare saying, but [as we've seen][8], even the most abstract games can mess this up. I especially love the feeling I get in Traal when walking into a trickier version of an early lesson. I
-can almost hear the authors saying, "ok, but now the walls are spikes".
+The pace of this game is excellent, and it does an excellent job of wordlessly teaching the player how to play. I hope that one day that won't bare saying,
+but [as we've seen][8], even the most abstract games can mess this up. I especially love the feeling I get in Traal when walking into a trickier version of an early
+lesson. I can almost hear the authors saying, "ok, but now the walls are spikes".
 
 {% endpullquote %}
 
@@ -38,4 +39,4 @@ can almost hear the authors saying, "ok, but now the walls are spikes".
 [5]: http://www.draknek.org/games/traal/
 [6]: https://twitter.com/whitingjp
 [7]: https://twitter.com/draknek
-[8]: http://localhost:4000/blog/2012/09/22/osmos/
+[8]: http://www.arrogantgamer.com/blog/2012/09/22/osmos/
