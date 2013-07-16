@@ -48,5 +48,13 @@ elements This phenomenon is one of degrees: in the case of Conversion, as I've m
 present a non-sighted experience; it models one. The Why use point particles
 to represent sound waves when sound waves would do a much better job? 
 
+[blindside][8]
+[papasangre][9]
+[nightjar][10]
+
+
 [1]: http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&uid=1158
 [3]: http://rac7.com/YouMustEscape/
+[8]: http://www.blindsidegame.com/
+[9]: http://www.papasangre.com/
+[10]: http://www.youtube.com/watch?v=zeBFCQ-aBds
