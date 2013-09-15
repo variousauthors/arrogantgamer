@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Regex, Papers, Tower"
+date: 2013-07-22 16:20
+comments: true
+published: false
+categories: ["imagine"]
+---
+
+[RTP][apexgrows]{4,5} [CDP][leafsdrown]{5,8}
+
+Regex Crossword
+Tower Defense
+Papers Please
+
+Imagine a tower defense game in which the towers are regular expressions with
+cooldown. You upgrade them by making them less specific, so that they can chip
+away at the word enemies that roll ever closer.
+
+Imagine a game in which you are a regular expression engine. A regex comes in,
+and you have a limited number of clock cycles to understand it. Then inputs
+start to pour in and you have to rapidly populate and return match data. Too
+many mistakes and your library will gain a reputation as buggy; too slow and
+folks will complain.

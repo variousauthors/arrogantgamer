@@ -52,7 +52,6 @@ to represent sound waves when sound waves would do a much better job?
 [papasangre][9]
 [nightjar][10]
 
-
 [1]: http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&uid=1158
 [3]: http://rac7.com/YouMustEscape/
 [8]: http://www.blindsidegame.com/
