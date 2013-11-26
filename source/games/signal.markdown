@@ -26,4 +26,4 @@ If you have a clever idea for a Signal level, go ahead and [hack it][3]! Let me 
 [3]: http://www.puzzlescript.net/editor.html?hack=7626248
 [4]: http://gamejolt.com/games/puzzle/signal/19552/
 [5]: http://indiegames.com/2013/11/browser_pick_signal.html
-[6]: 1gam
+[6]: http://www.onegameamonth.com/
