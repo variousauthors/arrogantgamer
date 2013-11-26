@@ -8,10 +8,6 @@ games:
    url: http://www.antichamber-game.com/
    brief: 'mind-bending first-person puzzler'
 
- - name: That Dragon, Cancer
-   url: http://thatdragoncancer.com/
-   brief: 'a personal account and adventure'
-
  - name: Papo and yo
    url: http://store.steampowered.com/app/227080/
    brief: 'fairy tale in a Brazilian shanty town'
@@ -19,10 +15,6 @@ games:
  - name: Kairo
    url: http://kairo.lockeddoorpuzzle.com/
    brief: 'atmospheric 3D puzzling'
-
- - name: Fez
-   url: http://polytroncorporation.com/buy-fez
-   brief: 'love letter to my childhood'
 
  - name: Remembering
    url: http://rememberingthegame.com/
