@@ -4,6 +4,8 @@
 
 Signal was created in [puzzlescript][10] for [#1GAM][60] in November, 2013. It was featured as a "browser pick" on [indiegames.com][50] before being officially released on [GameJolt][40]. Thank you to everyone who played it, and thank you even more to everyone who made it to the end.
 
+On May 27th 2013, Signal became one of the featured games on the front-page of GameJolt. This pleases me to no end!
+
 Signal was made with puzzlescript, which is an exceptional and awesome tool for making puzzles of any complexity. Another amazing benefit of puzzlescript is that it is really easy to "hack" on a project that you like. The first thing I made in puzzlescript was just an extra level for a demake of [Closure][20].
 
 If you have a clever idea for a Signal level, go ahead and [hack it][30]! Let me know, and if I think it rocks I'll add it to the game.
