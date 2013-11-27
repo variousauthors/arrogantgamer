@@ -4,7 +4,7 @@
   <title><![CDATA[Category: imagine | Arrogant Gamer]]></title>
   <link href="http://www.arrogantgamer.com/blog/categories/imagine/atom.xml" rel="self"/>
   <link href="http://www.arrogantgamer.com/"/>
-  <updated>2013-11-26T23:45:57+01:00</updated>
+  <updated>2013-11-27T21:15:35+01:00</updated>
   <id>http://www.arrogantgamer.com/</id>
   <author>
     <name><![CDATA[Arrogant Gamer]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Regex, Papers, Tower]]></title>
+    <link href="http://www.arrogantgamer.com/blog/2013/07/22/regex/"/>
+    <updated>2013-07-22T16:20:00+02:00</updated>
+    <id>http://www.arrogantgamer.com/blog/2013/07/22/regex</id>
+    <content type="html"><![CDATA[<p>[RTP][apexgrows]{4,5} [CDP][leafsdrown]{5,8}</p>
+
+<p>Regex Crossword
+Tower Defense
+Papers Please</p>
+
+<p>Imagine a tower defense game in which the towers are regular expressions with
+cooldown. You upgrade them by making them less specific, so that they can chip
+away at the word enemies that roll ever closer.</p>
+
+<p>Imagine a game in which you are a regular expression engine. A regex comes in,
+and you have a limited number of clock cycles to understand it. Then inputs
+start to pour in and you have to rapidly populate and return match data. Too
+many mistakes and your library will gain a reputation as buggy; too slow and
+folks will complain.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Vision by Proxy]]></title>
