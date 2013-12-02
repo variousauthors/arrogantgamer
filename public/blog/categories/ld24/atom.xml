@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: LD24 | Arrogant Gamer]]></title>
+  <link href="http://www.arrogantgamer.com/blog/categories/ld24/atom.xml" rel="self"/>
+  <link href="http://www.arrogantgamer.com/"/>
+  <updated>2013-12-02T22:18:19+01:00</updated>
+  <id>http://www.arrogantgamer.com/</id>
+  <author>
+    <name><![CDATA[Arrogant Gamer]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Death Death Evolution]]></title>
+    <link href="http://www.arrogantgamer.com/blog/2012/10/01/death-death-evolution/"/>
+    <updated>2012-10-01T19:35:00+02:00</updated>
+    <id>http://www.arrogantgamer.com/blog/2012/10/01/death-death-evolution</id>
+    <content type="html"><![CDATA[<p>In Death Death Evolution, there is no escape. You must die to advance.
+This game proposes a new relationship between the platform
+jumper and the pits. In later stages I was actively looking for places
+where I could die in a particular way, in order to unlock the tools I
+might need later. There are even levels where you can die in irrelevant
+ways, if you choose to, so that if you want to you can be stingy with death,
+or feed her to bursting in order to fully 'power up'.</p>
+
+<!-- more -->
+
+
+<p><img class="right-side" src="/images/dde.png"></p>
+
+<p>Nice game: I want more. More different animals, evolution abilities that
+make more sense (I mean... I fell on spikes and could subsequently break
+balloons with my head). I think we could take the mechanic of dying
+for personal gain, switch up the theme a bit, and make a truly golden game
+about ghosts or reincarnation or something.</p>
+
+<p><blockquote class='imagine-with-me'><p>Let the player control people who are in touch with the spirit world. Mediums.<br/>You lead them about, and when they come in contact with a ghost they take on<br/>some aspect of that ghost's former life. At first, there are not ghosts and only<br/>a collection of living mediums. The player strategically kills off her mediums,<br/>forcing them to haunt the place of their death but also allowing later mediums to<br/>proceed further through the game. Perhaps there is an economy of souls, such that<br/>a player must be careful who is killed when.</p></blockquote></p>
+]]></content>
+  </entry>
+  
+</feed>

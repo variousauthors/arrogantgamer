@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Traal | Arrogant Gamer]]></title>
+  <link href="http://www.arrogantgamer.com/blog/categories/traal/atom.xml" rel="self"/>
+  <link href="http://www.arrogantgamer.com/"/>
+  <updated>2013-12-02T22:18:19+01:00</updated>
+  <id>http://www.arrogantgamer.com/</id>
+  <author>
+    <name><![CDATA[Arrogant Gamer]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ravenous]]></title>
+    <link href="http://www.arrogantgamer.com/blog/2013/06/24/ravenous/"/>
+    <updated>2013-06-24T21:53:00+02:00</updated>
+    <id>http://www.arrogantgamer.com/blog/2013/06/24/ravenous</id>
+    <content type="html"><![CDATA[<p>The creators of <a href="http://jonathanwhiting.com/ld/23/">Niña Nueve</a> (<a href="https://twitter.com/whitingjp">@whitingjp</a>) and <a href="http://www.newgrounds.com/portal/view/585599">These Robotic Hearts of Mine</a> (<a href="https://twitter.com/draknek">@Draknek</a>; an all time favorite of mine) comes <a href="http://jonathanwhiting.com/coding/traal/">Traal</a>, the
+lovecraftian reverse stealth-em-up action puzzler for mobile and flash. Could we ask for anything more? A blindfold, perhaps?</p>
+
+<!-- More -->
+
+
+<p><img class="left-side" src="/images/traal.jpg" title="&#34;Traal&#34;" alt="&#34;Traal&#34;"></p>
+
+<p><a href="http://jonathanwhiting.com/coding/traal/">Traal</a> is an interesting reversal of the stealth game genre that takes place in a dungeon filled with spikes. The hero has a flashlight, and wherever she turns
+the flashlight shines. If the flashlight lights up a monster, the hero freaks the fuck out and the player loses control of her for a moment. In a dungeon filled
+with spikes, this momentary loss of control can mean death. Interestingly, the monsters (while deadly) rarely seem particularly interested in the hero, and ultimately
+the enemy is her fear of the environment. Later in the game, she finds a blindfold and things get interesting. When the hero is wearing the blindfold, she can't see
+anything and the screen goes black. Now the player can still maneuver, and the monsters are still deadly, but the hero won't freak out.</p>
+
+<p><span class='pullquote-right' data-pullquote='The blindfold introduces an element of non-sighted play'></p>
+
+<p>The blindfold introduces an element of non-sighted play: the player now has the option of switching from sighted to non-sighted, and there are benefits to both.
+In many rooms it is easy enough to memorize the layout and then feel your way through, but some rooms are too complicated for this to be effective.</p>
+
+<p>The pace of this game is excellent, and it does an excellent job of wordlessly teaching the player how to play. I hope that one day that won't bare saying,
+but <a href="http://www.arrogantgamer.com/blog/2012/09/22/osmos/">as we've seen</a>, even the most abstract games can mess this up. I especially love the feeling I get in Traal when walking into a trickier version of an early
+lesson. I can almost hear the authors saying, "ok, but now the walls are spikes".</p>
+
+<p></span></p>
+]]></content>
+  </entry>
+  
+</feed>
