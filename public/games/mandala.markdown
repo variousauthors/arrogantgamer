@@ -6,7 +6,7 @@ Mandala was my entry for the 26th Ludum Dare (theme: minimalism). It is the firs
 
 It was featured on [rockpapershotgun.com][4] in May of 2013 in a list of LD26 games selected by porpentine. It was also featured on [freeindiegam.es][5], which is my favourite site for finding the kinds of games that I want to make. Needless to say, my delight was ripe fruit.
 
-Mandala is also a platform for publishing text adventures that fade away the more people play them. The first game published with Mandala is still technically online, but all the content has long since faded away and for now it is now just a mess of non-breaking whitespace.
+Mandala is also a platform for publishing text adventures that fade away the more people play them. The first game published with Mandala is still technically online, but all the content has long since faded away and for now it is now just a mess of non-breaking whitespace. Mostly.
 
 If you would like to write a story using Mandala, visit me on [github][3] and familiarize yourself with the readme.
 
