@@ -60,6 +60,12 @@ module Jekyll
         @filetype = $1
         markup = markup.sub(/\s*lang:(\S+)/i,'')
       end
+      if markup =~ /\s*class:(\S+)/i
+        @className = "code #{$1}"
+        markup = markup.sub(/\s*class:(\S+)/i,'')
+      else
+        @className = "code"
+      end
       if markup =~ CaptionUrlTitle
         @file = $1
         @caption = "<figcaption><span>#{$1}</span><a href='#{$2}'>#{$3 || 'link'}</a></figcaption>"
@@ -76,7 +82,7 @@ module Jekyll
     def render(context)
       output = super
       code = super
-      source = "<figure class='code'>"
+      source = "<figure class='#{@className}'>"
       source += @caption if @caption
       if @filetype
         source += "#{highlight(code, @filetype)}</figure>"
