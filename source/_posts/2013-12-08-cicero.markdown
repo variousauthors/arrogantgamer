@@ -1,0 +1,131 @@
+---
+layout: post
+title: "Cicero"
+date: 2013-12-08 14:59
+comments: true
+published: false
+categories: ["Quintus", "Ludum Dare", "GameDev", "Signal"]
+subtitle: "In which arrogant.gamer records his journey"
+---
+
+[Ludum Dare 28][1] is coming up, and I plan on making something. I've thought
+about trying to make a zelda-like, or a rogue-like, but of course I will leave
+the final decision up to fate and the theme. The tool I plan on using, however
+is now set in stone.
+
+<!-- more -->
+
+Of course, I'm talking about
+{% img center /images/quintus_banner.png "Quintus" %}
+
+In order to familiarize myself with the ins and outs of this up-and-coming
+HTML5 game development framework, I've set myself to the task of implementing
+Signal with it. Last night (Dec 7th) I got a tilemap showing, added movement
+to the red drone, and then things got tricky.
+
+My first game loop looked like this:
+
+
+```javascript
+$(document).ready(function () {
+
+  var Q = Quintus({ imagePath: "/assets/"})
+            .include("Sprites, Scenes, 2D, Input")
+            .setup({
+              height: 720,
+              width: 1440
+            }).controls();
+
+  Q.load([ "signal_tiles.png"], function() {
+    Q.sheet("signal", "signal_tiles.png", { tilew: 90, tileh: 90, sx:0, sy:0 });
+
+    var actors = digest_bitmap();
+
+    Q.gameLoop(function (dt) {
+      var i;
+
+      for(i = 0; i < actors.length; i++) {
+        actors[i].update(dt);
+      }
+
+      Q.clear();
+
+      for(i = 0; i < actors.length; i++) {
+        actors[i].render(Q.ctx);
+      }
+    });
+  });
+
+});
+```
+
+{% codeblock making the world %}
+  Q.legend = {
+    '.': Q.Blank,
+    'n': Q.Null,
+    'r': Q.RedDrone
+  };
+
+  var digest_bitmap = function () {
+
+    var actors = "\
+nnnnnnnnnnnnnnnn\
+nnnnnnnnnnnnnnnn\
+nnnn........nnnn\
+nnnnn..r...nnnnn\
+nnnnnn.......nnn\
+nnnnn.....nnnnnn\
+nnnnnnnnnnnnnnnn\
+nnnnnnnnnnnnnnnn\
+"
+    var sprites = [];
+
+    for(var i = 0; i < actors.length; i++) {
+      var symbol = actors[i],
+          klass = Q.legend[symbol],
+          x = 90 * (i % 16),
+          y = 90 * parseInt(i / 16, 10);
+
+      sprites[i] = new klass({ x: x + 45, y: y + 45 });
+    }
+
+    return sprites;
+  };
+
+{% endcodeblock %}
+
+{% codeblock %}
+  Q.Sprite.extend("Blank", {
+    init: function(p) {
+      p.sheet = "signal";
+      p.frame = 27;
+      this._super(p);
+    }
+  });
+
+  Q.Sprite.extend("Drone", {
+    init: function(p) {
+      p.sheet = "signal";
+      p.stepDistance = 90;
+      this._super(p);
+    }
+  });
+
+  Q.Drone.extend("Null", {
+    init: function (p) {
+      p.frame = 20;
+      this._super(p);
+    },
+  });
+
+  Q.Drone.extend("RedDrone", {
+    init: function (p) {
+      p.frame = 21;
+      this._super(p);
+
+      this.add("stepControls");
+    }
+
+  });
+
+{% endcodeblock %}
