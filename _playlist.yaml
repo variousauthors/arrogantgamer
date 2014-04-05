@@ -7,10 +7,12 @@ games:
  - name: Antichamber
    url: http://www.antichamber-game.com/
    brief: 'mind-bending first-person puzzler'
+   done: true
 
  - name: Papo and yo
    url: http://store.steampowered.com/app/227080/
    brief: 'fairy tale in a Brazilian shanty town'
+   done: true
 
  - name: Kairo
    url: http://kairo.lockeddoorpuzzle.com/
@@ -39,3 +41,4 @@ games:
  - name: Contrast
    url: http://contrastgame.com/
    brief: "portalesque that tells a sisters' story"
+
