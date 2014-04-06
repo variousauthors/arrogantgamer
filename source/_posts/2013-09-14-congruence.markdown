@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Congruence"
+thumb: "contrast.png"
 date: 2013-09-14 19:44
 comments: false
 published: true
