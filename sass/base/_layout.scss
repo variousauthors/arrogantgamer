@@ -1,4 +1,4 @@
-$max-width: 1200px !default;
+$max-width: 1000px !default;
 
 // Padding used for layout margins
 $pad-min: 18px !default;
@@ -48,6 +48,7 @@ body {
   -webkit-text-size-adjust: none;
   max-width: $max-width;
   position: absolute;
+  overflow-x: hidden;
   right: 0;
   > header, > nav, > footer, #content > article, #content > div > article, #content > div > section {
     @extend .group;

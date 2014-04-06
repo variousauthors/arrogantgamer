@@ -26,3 +26,7 @@
   @return $text-color;
 }
 
+.scan-lines {
+    background-image: linear-gradient(rgba(200, 200, 200, .6) 50%, transparent 50%, transparent);
+    background-size: 5px 5px;
+}
