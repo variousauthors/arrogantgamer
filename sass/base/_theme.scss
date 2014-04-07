@@ -10,7 +10,7 @@ $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 // Main Section Colors
 $main-bg: $base3 !default;
 $page-bg: white !default;
-$html-bg: url("/images/ziggy.png") no-repeat scroll -180px 0 / 59% auto rgba(0, 0, 0, 0) !default;
+$ziggy-full: url("/images/ziggy.png") no-repeat scroll -180px 0 / 59% auto rgba(0, 0, 0, 0) !default;
 $article-border: #eeeeee !default;
 
 $header-bg: $main-bg !default;
@@ -71,7 +71,9 @@ a {
 }
 
 html {
-  background: $html-bg;
+    @media only screen and (min-width: 1200px) {
+        background: $ziggy-full;
+    }
 }
 
 body {

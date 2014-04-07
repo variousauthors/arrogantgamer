@@ -1,6 +1,24 @@
 body > header {
   background: $header-bg;
   border-left: 1px solid $page-border-bottom;
+
+  @media only screen and (max-width: 1200px) {
+      hgroup.brand:before {
+          background: url("/images/avatar_face.png") repeat scroll 0 0 / 100px 100px rgba(0, 0, 0, 0);
+          border-radius: 100px;
+          content: "";
+          display: inline-block;
+          height: 100px;
+          width: 100px;
+          margin-right: 10px;
+      }
+  }
+
+  div {
+      display: inline-block;
+      vertical-align: top;
+  }
+
   h1 {
     display: inline-block;
     margin: 0;
@@ -27,6 +45,10 @@ body > header {
           height: 64px;
           border-radius: 32px;
           background-color: $base0;
+
+          @media only screen and (max-width: 480px) {
+              display: none;
+          }
       }
   }
 }
