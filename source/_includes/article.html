@@ -17,19 +17,21 @@
 </header>
 {% endunless %}
 {% if index %}
-    <div class="entry">
-        <div role="overlay" class="scan-lines"></div>
-        <div class="entry-thumb">
-            <img src="/images/thumbs/{{ post.thumb }}">
-        </div>
-        <div class="entry-content">{{ content | excerpt }}</div>
-        {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
-        {% if excerpted == 'true' %}
+    <div class="android-wrapper">
+        <div class="entry">
+            <div role="overlay" class="scan-lines"></div>
+            <div class="entry-thumb">
+                <img src="/images/thumbs/{{ post.thumb }}">
+            </div>
+            <div class="entry-content">{{ content | excerpt }}</div>
+            {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
+            {% if excerpted == 'true' %}
 
             <footer>
                 <a rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
             </footer>
-        {% endif %}
+            {% endif %}
+        </div>
     </div>
 
 {% else %}
