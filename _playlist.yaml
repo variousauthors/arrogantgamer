@@ -1,9 +1,5 @@
 ---
 games:
- - name: Two Brothers
-   url: http://www.kickstarter.com/projects/ackkstudios/two-brothers-0
-   brief: 'GBC era adventure RPG'
-
  - name: Antichamber
    url: http://www.antichamber-game.com/
    brief: 'mind-bending first-person puzzler'
@@ -18,10 +14,6 @@ games:
    url: http://kairo.lockeddoorpuzzle.com/
    brief: 'atmospheric 3D puzzling'
 
- - name: Remembering
-   url: http://rememberingthegame.com/
-   brief: 'poetic exploration game'
-
  - name: Proteus
    url: http://www.visitproteus.com/?page_id=402&preview=true#buysection
    brief: 'playable wanderlust'
@@ -29,6 +21,14 @@ games:
  - name: EvoLand
    url: http://evoland.shirogames.com/
    brief: 'a brief history of RPGs'
+
+ - name: Two Brothers
+   url: http://www.kickstarter.com/projects/ackkstudios/two-brothers-0
+   brief: 'GBC era adventure RPG'
+
+ - name: Remembering
+   url: http://rememberingthegame.com/
+   brief: 'poetic exploration game'
 
  - name: Perspective
    url: http://www.seewithperspective.com/
@@ -42,3 +42,6 @@ games:
    url: http://contrastgame.com/
    brief: "portalesque that tells a sisters' story"
 
+ - name: Cult of the Wind
+   url: http://steamcommunity.com/sharedfiles/filedetails/?id=247896958
+   brief: "Nyaaaaan gagagagaga!"
