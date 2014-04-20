@@ -53,3 +53,7 @@ games:
  - name: Even the Ocean
    url: http://www.eventheocean.com/
    brief: "A video game for the computer."
+
+ - name: Hyper Light Drifter
+   url: http://www.heart-machine.com
+   brief: "Like a driftier S&S"
