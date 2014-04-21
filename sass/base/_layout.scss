@@ -93,6 +93,9 @@ body {
 
 #content {
   overflow: hidden;
+  border-bottom: 1px solid $page-border-bottom;
+  border-left: 1px solid $page-border-bottom;
+
   > div, > article { width: 100%; }
 }
 
