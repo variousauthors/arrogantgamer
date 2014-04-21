@@ -17,7 +17,7 @@
 </header>
 {% endunless %}
 {% if index %}
-    <div class="android-wrapper">
+<div class="android-wrapper {% if content == "" %}hidden{% endif %}">
         <div class="entry">
             <div role="overlay" class="scan-lines"></div>
             <div class="entry-thumb">
