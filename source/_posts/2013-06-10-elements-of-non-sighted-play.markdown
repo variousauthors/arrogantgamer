@@ -2,6 +2,7 @@
 layout: post
 title: "Elements of non-sighted play"
 date: 2013-06-25 21:53
+thumb: "conversion.png"
 comments: false
 published: true
 categories: ['non-sighted play', 'Conversion', 'LD26', 'Ludum Dare']

@@ -2,6 +2,7 @@
 layout: post
 title: "Ravenous"
 date: 2013-06-24 21:53
+thumb: "traal.png"
 comments: false
 published: true
 categories: ['Traal', 'mobile', 'stealth', 'reverse', 'non-sighted']

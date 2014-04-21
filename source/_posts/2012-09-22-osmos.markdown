@@ -2,6 +2,7 @@
 layout: post
 title: "Become the Biggest"
 date: 2012-09-22 18:28
+thumb: "osmos.png"
 comments: false
 published: true
 categories: ["Osmos"]
