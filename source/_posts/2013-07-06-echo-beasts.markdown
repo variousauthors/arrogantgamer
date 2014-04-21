@@ -3,7 +3,7 @@ layout: post
 title: "Echo Beasts"
 date: 2014-04-21 16:13
 thumb: "you-must-escape.png"
-comments: true
+comments: false
 published: true
 categories: ['non-sighted play']
 ---
