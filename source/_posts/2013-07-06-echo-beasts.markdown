@@ -1,17 +1,15 @@
 ---
 layout: post
 title: "Echo Beasts"
-date: 2013-07-06 17:13
+date: 2014-04-21 16:13
 thumb: "you-must-escape.png"
 comments: true
 published: true
 categories: ['non-sighted play']
 ---
 
-I recently became excited about the prospect of games for non-sighted people. This came after playing a couple of LD26 games that involved
-elements of non-sighted play. These were [Conversion][1], and [You Must Escape][3], and they succeed in being about accessibility without being accessible.
-
-I wrote about Conversion as [a separate post][12].
+A while back, I became excited about the prospect of games for non-sighted people. This came after playing a couple of LD26 games that involved
+elements of non-sighted play. I wrote about [Conversion][1] in a [previous post][12], but [You Must Escape][3] is just as interesting.
 
 <!-- more -->
 
