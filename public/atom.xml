@@ -4,7 +4,7 @@
   <title><![CDATA[Arrogant Gamer]]></title>
   <link href="http://www.arrogantgamer.com/atom.xml" rel="self"/>
   <link href="http://www.arrogantgamer.com/"/>
-  <updated>2014-05-06T21:55:23-07:00</updated>
+  <updated>2014-05-07T12:40:45-07:00</updated>
   <id>http://www.arrogantgamer.com/</id>
   <author>
     <name><![CDATA[Arrogant Gamer]]></name>
@@ -12,72 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Misdirection & Dreams]]></title>
-    <link href="http://www.arrogantgamer.com/blog/2014/05/02/beneath-the-surface/"/>
-    <updated>2014-05-02T18:25:30-07:00</updated>
-    <id>http://www.arrogantgamer.com/blog/2014/05/02/beneath-the-surface</id>
-    <content type="html"><![CDATA[<p>&ldquo;Beneath the Surface&rdquo; was a great theme. If you made a game that said, <em>this
-is a game that seems to be one thing, but beneath the surface it is another.&ldquo;</em>,
-then you have my love. So far, <a href="https://twitter.com/jezzamonn">@jezzamonn</a>&rsquo;s <a href="http://www.ludumdare.com/compo/ludum-dare-29/?action=preview&amp;uid=10217">Generic Adventure Game</a> is the
-game that nailed that one the best.</p>
-
-<!-- more -->
-
-
-<p>The game starts with a beautiful misdirection, playing on the investment of
-player into avatar. For the first moments of the game you play a generic hero
-who can press &lsquo;A&rsquo; to kill an adorable slime for XP. The slime is the player,
-but the player won&rsquo;t understand this right away.</p>
-
-<p>Misdirection stands in a clique at the heart of game design, facing inwards and
-passing around a pipe. Unlike the rest of the elements of play you might encounter
-in a game, a misdirection can be experience meaningfully exactly once by each player.
-It is a narrative technique, but it is one that is expressed purely in the meta
-world of interface. There is no dialog or plot twist: we are set up to expect one
-thing, and then we press an arrow key and the wrong thing happens. Simple, but
-so, so effective.</p>
-
-<p><span class='pullquote-right' data-pullquote='Our role is to reflect, to criticise, and to absorb'>
-Swapping us into the role of the slime also locates us as &ldquo;back-stage&rdquo;, which is thrilling. It
-suddenly doesn&rsquo;t matter as much that the slime moves slowly and jumps without vigor,
-because, ostensibly, the slime (the player) is not at the center of this game&rsquo;s action.
-The heroes move at a reasonable pace, but we understand that our role is not to run
-and jump. Our role is to reflect, to criticise, and to absorb. The slime&rsquo;s behaviour
-mirrors this with its doubts, and existential questions.
-</span></p>
-
-<p>Now, confused and unsure of what to <em>do</em> in the game, we are left alone to be a helpless
-slime for a while. Amnesia and helplessness are go-toes of the game-to-brain API. The
-player does not, by default, know what has happened in the moments leading up to the game
-or what the game&rsquo;s objective are. Allowing the player to stew in this uncertainty is
-always great, and many of the classic JRPG characters we know and love made it into
-our brains this way.</p>
-
-<p>Eventually the game explains: hold shift to dream.</p>
-
-<p><img class="left" src="http://www.arrogantgamer.com/images/slime-dream.png" title="&#34;Slime is Dreaming&#34;" alt="&#34;Slime is Dreaming&#34;"></p>
-
-<p>As long as you hold shift, you are playing a different game: you jump higher and
-move faster, there are no heroes to kill you and the landscape is lush,
-verdant, soft, and anti-aliased. You can hop around and explore, and the game
-generally just feels <em>better</em>. Meanwhile, on the surface, you are dying repeatedly.</p>
-
-<p>For me, this is a <em>new trick</em>: a game that sucks, in which you can hold shift to play a fun
-game. What a totally rad idea! I can&rsquo;t help by imagine all the places a game could go from
-there: perhaps the slime unlocks deep and ancient secrets, or saves the world
-(perhaps the player sometimes forgets they are holding shift and that this is a dream); perhaps there
-are gates in the dream world that lead out to the aether beyond worlds, and
-the slime loses its connection to its body, only then learning to appreciate what it lost;
-perhaps the slime meets a spiritual guide that teaches it to bring its dream
-self into the real world. Perhaps!</p>
-
-<p>When your game starts with such brilliant underpinnings,
-where you take it is of little consequence. Generic Adventure Game does not
-disappoint.</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Echo Beasts]]></title>
@@ -119,143 +53,6 @@ time in order to advance, we are just given a taste of non-sighted play.</p>
 feeling in their players. I feel like You Must Escape does an excellent job of being a fun game about echolocation, but not such a great job of evoking the feeling of
 actually echolocating. It isn&rsquo;t so much a &ldquo;blind sound-dependent&rdquo; game; rather it is about blindness and sound-dependence. If you are interested in trying your hand
 at some games that actually <em>are</em> &ldquo;blind sound-dependent games&rdquo;, I recommend checking out <a href="http://www.blindsidegame.com/">blindside</a>, <a href="http://www.papasangre.com/">papasangre</a>, or <a href="http://www.youtube.com/watch?v=zeBFCQ-aBds">nightjar</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Cicero]]></title>
-    <link href="http://www.arrogantgamer.com/blog/2013/12/08/cicero/"/>
-    <updated>2013-12-08T14:59:00-08:00</updated>
-    <id>http://www.arrogantgamer.com/blog/2013/12/08/cicero</id>
-    <content type="html"><![CDATA[<p>[Ludum Dare 28][1] is coming up, and I plan on making something. I&rsquo;ve thought
-about trying to make a zelda-like, or a rogue-like, but of course I will leave
-the final decision up to fate and the theme. The tool I plan on using, however
-is now set in stone.</p>
-
-<!-- more -->
-
-
-<p>Of course, I&rsquo;m talking about
-<img class="center" src="http://www.arrogantgamer.com/images/quintus_banner.png" title="&#34;Quintus&#34;" alt="&#34;Quintus&#34;"></p>
-
-<p>In order to familiarize myself with the ins and outs of this up-and-coming
-HTML5 game development framework, I&rsquo;ve set myself to the task of implementing
-Signal with it. Last night (Dec 7th) I got a tilemap showing, added movement
-to the red drone, and then things got tricky.</p>
-
-<figure class='code'><figcaption><span>the gameloop </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">Q</span><span class="p">.</span><span class="nx">load</span><span class="p">([</span> <span class="s2">&quot;signal_tiles.png&quot;</span><span class="p">],</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>  <span class="nx">Q</span><span class="p">.</span><span class="nx">sheet</span><span class="p">(</span><span class="s2">&quot;signal&quot;</span><span class="p">,</span> <span class="s2">&quot;signal_tiles.png&quot;</span><span class="p">,</span> <span class="p">{</span> <span class="nx">tilew</span><span class="o">:</span> <span class="mi">90</span><span class="p">,</span> <span class="nx">tileh</span><span class="o">:</span> <span class="mi">90</span><span class="p">,</span> <span class="nx">sx</span><span class="o">:</span><span class="mi">0</span><span class="p">,</span> <span class="nx">sy</span><span class="o">:</span><span class="mi">0</span> <span class="p">});</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="kd">var</span> <span class="nx">actors</span> <span class="o">=</span> <span class="nx">digest_bitmap</span><span class="p">();</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="nx">Q</span><span class="p">.</span><span class="nx">gameLoop</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">dt</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>    <span class="kd">var</span> <span class="nx">i</span><span class="p">;</span>
-</span><span class='line'>
-</span><span class='line'>    <span class="k">for</span><span class="p">(</span><span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">actors</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>      <span class="nx">actors</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">update</span><span class="p">(</span><span class="nx">dt</span><span class="p">);</span>
-</span><span class='line'>    <span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'>    <span class="nx">Q</span><span class="p">.</span><span class="nx">clear</span><span class="p">();</span>
-</span><span class='line'>
-</span><span class='line'>    <span class="k">for</span><span class="p">(</span><span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">actors</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>      <span class="nx">actors</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">render</span><span class="p">(</span><span class="nx">Q</span><span class="p">.</span><span class="nx">ctx</span><span class="p">);</span>
-</span><span class='line'>    <span class="p">}</span>
-</span><span class='line'>  <span class="p">});</span>
-</span><span class='line'><span class="p">});</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>At first I didn&rsquo;t really understand stages and scenes, I just wanted to feed
-in a bitmap and have the result be nice tiles. The <code>digest_bitmap</code> method
-does just that: I pass it a bitmap as an argument (at first is was hardcoded),
-and it gives me an array of actors, which will all be <code>Q.Sprite</code> objects.
-Having the gameloop there explicitly isn&rsquo;t necessary when you have scenes,
-but now &mdash; after refactoring to include scenes &mdash; I feel like I want my little
-gameloop back. I&rsquo;m not a game developer by education, so a lot of this stuff
-is pretty new to me, and I&rsquo;d kind of like to know what&rsquo;s going on in there.
-Fortunately, the Quintus source is pretty accessible.</p>
-
-<h2>Inheritance</h2>
-
-<p>One of the things I really liked about Signal was: all of the common objects
-behaved in basically the same way. In this implementation, I really want to
-take that further. I&rsquo;m going to define &ldquo;Block&rdquo; and &ldquo;Drone&rdquo; as parent classes,
-and have everything else in the game inherit from these.</p>
-
-<figure class='code half-width'><figcaption><span>drones! </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">All</span> <span class="nx">the</span> <span class="nx">drone</span> <span class="nx">code</span><span class="o">!</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h3>Special Cases</h3>
-
-<figure class='code half-width'><figcaption><span>red drone </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">The</span> <span class="nx">red</span> <span class="nx">drone</span> <span class="kd">with</span> <span class="nx">its</span> <span class="nx">swapping</span> <span class="nx">code</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>Events</h2>
-
-<p>Here I came up against Quintus&#8217; &ldquo;events&rdquo;, which don&rsquo;t work the way I
-expect, coming from a background in Backbone and MarionetteJS. When
-I think of events, I think of an announcement rather than a targeted
-message; I think of the actor paradigm and of concurrency. Quintus&#8217;
-events are not like this. When you trigger an event, you define
-explicitly the receiver. If you want to broadcast messages, you are
-going to have to do this yourself.</p>
-
-<p>This came as something of a disapointment to me, since I had expected that
-I would be able to implement drone control directly on top of Quintus&#8217;
-event management. However, it is also a good reminder that I am not
-building a website here!</p>
-
-<figure class='code half-width'><figcaption><span>control blocks </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">Code</span> <span class="k">for</span> <span class="nx">the</span> <span class="nx">control</span> <span class="nx">blocks</span> <span class="s2">&quot;broadcasting&quot;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>Components: Too Much Physics</h2>
-
-<p>Right away, after installing the &ldquo;2d&rdquo; component in the drones, I realized
-that I didn&rsquo;t really want a lot of physics in this game. The way things
-work in Quintus out-of-the-box you get smooth movement, and natural &ldquo;bounce&rdquo;.
-When you move a drone, it slides elegantly into its new position. When
-a drone collides with something, it bounces nicely off the surface.</p>
-
-<p>This was a great opportunity to really explore the &ldquo;2d&rdquo; and &ldquo;scene&rdquo; components,
-and try my hand at implementing a, albeit simpler, physics component.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Portal 2]]></title>
-    <link href="http://www.arrogantgamer.com/blog/2013/09/14/portal-2/"/>
-    <updated>2013-09-14T21:32:00-07:00</updated>
-    <id>http://www.arrogantgamer.com/blog/2013/09/14/portal-2</id>
-    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
@@ -334,133 +131,6 @@ when I was a kid &mdash; like <a href="http://www.gutenberg.org/ebooks/620">Sylv
 on my shelf along-side them.</p>
 
 <p>Is that enough pressure?</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Meat's Edge]]></title>
-    <link href="http://www.arrogantgamer.com/blog/2013/07/26/meats-edge/"/>
-    <updated>2013-07-26T16:20:00-07:00</updated>
-    <id>http://www.arrogantgamer.com/blog/2013/07/26/meats-edge</id>
-    <content type="html"><![CDATA[<p>Meat&rsquo;s Edge is a first person take on the unforgiving twitch platformer,
-that doesn&rsquo;t shy away from nausea and vomit. Missing a jump generally means
-being torn into pink strips and recycled, rather than shimmying up a red pipe.</p>
-
-<!-- more -->
-
-
-<p>Meat&rsquo;s Edge takes human reflexes to the extreme. It takes all the vomit
-inducing vertigo of <a href="http://www.penny-arcade.com/comic/2008/11/03"> Mirror&rsquo;s Edge </a> and just runs with it: camera angles are
-spinning and flailing as your body rag-dolls madly after a failed landing.
-More rolling, more cart-wheels, and more acrobatics. You spend the game
-sprinting across rooftops, but unlike in Mirror&rsquo;s Edge the rooftops of this
-<a href="http://aliendovecote.com/uploads/twine/tycoon/crime.html">post neo-capitalist global empire</a> are designed to deter runners with the same
-vicious geometry that modern architecture leverages against pigeons and the
-homeless. I&rsquo;m talking about spikes. This is is not a world that was designed
-by the naive: they know what you are and what you do, and everything up here
-is intended to stop you.</p>
-
-<p><span class='pullquote-right' data-pullquote='Everything about Meat&#8217;s Edge is designed to remind you what you&#8217;re made of.'>
-In Mirror&rsquo;s Edge the first person perspective was <a href="http://www.wired.com/gaming/gamingreviews/commentary/games/2008/11/gamesfrontiers_1117">emphasized</a> by including
-heavy breathing, gasps, and your ever-present arms and legs. Meat&rsquo;s Edge
-takes this further: the phantom of your nose and upper lip is always
-there; strands of your thick black hair fall into your face as the wind
-crashing between the skyscrapers whips them to life; stand still for a moment
-(not recommended) and you will notice tiny fibers <a href="http://en.wikipedia.org/wiki/Floater">floating around inside your eye</a>.
-The environment is just as cruel as your anatomy: torrential
-rain, tear gas, or smoke belched from the factories gets in your eyes, blurs
-your vision, and reduces your chances of making that next jump; bright flashes
-of light stay with you, discolouring your surroundings. Ice level? Yeah, Meat&rsquo;s
-Edge has <a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/SlippySlideyIceWorld">an ice level</a>. Everything about Meat&rsquo;s Edge is designed to remind you what you&rsquo;re made of.
-</span></p>
-
-<p><span class='pullquote-left' data-pullquote='This is not a game that
-EA would ever publish.'>
-The level layouts are brutal! There are no brightly painted red pipes to shimmy up
-in this game; there are no long runs through corridors. Meat&rsquo;s Edge borrows
-its level design from twitch platformers like <a href="http://supermeatboy.com/">Super Meat Boy</a>, and its pace (and
-respect for your feelings) from <a href="http://superhexagon.com/"> Super Hexagon </a>. There are no arena zones filled with rifle toting corporate
-military, and if you do happen to cross paths with an armed guard, renegade
-cyborg, or corporate ninja charged with recovering the sensitive info you
-are running&hellip; <a href="https://www.youtube.com/watch?v=RwtifqCmGuw"> you do what we do </a>. Conflicts fought among the scaffolds and
-reflective plexiglass tend to be short and conclusive. This is not a game that
-EA would ever publish.</p>
-
-<p>Oh, and the dude on your intercom? Calling you names the whole fucking way.
-</span></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[10,000 Ninjas]]></title>
-    <link href="http://www.arrogantgamer.com/blog/2013/07/26/ten-thousand-ninjas/"/>
-    <updated>2013-07-26T14:29:00-07:00</updated>
-    <id>http://www.arrogantgamer.com/blog/2013/07/26/ten-thousand-ninjas</id>
-    <content type="html"><![CDATA[<p>In 10,000 Ninjas, you must combine insane twitch platforming, with patience,
-focus and careful observation. Combine the precision and time constraints of
-<a href="http://supermeatboy.com/"> Super Meat Boy </a> with the vexation of <a href="http://tenchu.wikia.com/wiki/Tenchu:_Stealth_Assassins">Tenchu</a> or <a href="http://www.markoftheninja.com/">Mark of the Ninja</a>,
-and you&rsquo;ve got 10,000 Ninjas.</p>
-
-<!-- more -->
-
-
-<p>Sometimes, when I&rsquo;m sitting in a passport office on a warm day, or sipping
-coldbrew on a courtyard patio, I&rsquo;ll experience strange dreams. During
-these times I find myself playing games that don&rsquo;t yet, or may never,
-exist. Mashing old games together, or stripping them apart&hellip; Digesting my
-nostalgia? Today I played 10,000 Ninjas.</p>
-
-<p><span class='pullquote-right' data-pullquote='Take all the games on
-lumosity, re-skin them for ninja stealth, and you&#8217;ve got 10,000 Ninjas!'>
-Each level is an impossible gauntlet of spikes, drills, and samurai guards
-making their rounds. In the shortest possible time, you must dodge, sneak, or
-murder your way to the objectives without being seen (or at least without
-being remembered). Death is frequent, and frustrating. Obstacles are mainly
-static, but the guards&#8217; routes are procedurally generated so as to foil memory.
-You can&rsquo;t close your eyes and twitch your way through the levels,
-you must pay attention to every tiny detail: there are loud cats, and squeaky
-floor-boards; geisha entertaining guests behind paper thin walls; and an array
-of low hanging branches and possibly scalable objects. Your peripheral vision is pushed to
-its limits; likewise, your ability to multi-task. Take all the games on
-<a href="http://www.lumosity.com/">lumosity</a>, re-skin them for ninja stealth, and you&rsquo;ve got 10,000 Ninjas!
-</span></p>
-
-<p><span class='pullquote-left' data-pullquote='it will leave your spirit as drained as
-your thumbs'>
-Not only that! The levels in 10,000 Ninjas are not a single tauntingly difficult
-path to a wailing damsel or hidden bandaid. Neither do they permit the open,
-free-form, &lsquo;do it your way&rsquo; aesthetic of <a href="http://www.gog.com/gamecard/deus_ex">Deus Ex</a>, Tenchu, or Mark of the Ninja.
-Each level is like three or four Super Meat Boy levels mashed into one, so that
-the player must determine by trial and repeated, violent, <em>infuriating</em> failure
-which of the many routes is actually viable. You might spend a half-hour crossing
-the rooftops in the hopes that you are on the right track, only to realize that
-finishing the level on time is impossible without entering the sewers! 10,000
-Ninjas is maddeningly difficult, and it will leave your spirit as drained as
-your thumbs.
-</span></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Regex, Papers, Tower]]></title>
-    <link href="http://www.arrogantgamer.com/blog/2013/07/22/regex/"/>
-    <updated>2013-07-22T16:20:00-07:00</updated>
-    <id>http://www.arrogantgamer.com/blog/2013/07/22/regex</id>
-    <content type="html"><![CDATA[<p>[RTP][apexgrows]{4,5} [CDP][leafsdrown]{5,8}</p>
-
-<p>Regex Crossword
-Tower Defense
-Papers Please</p>
-
-<p>Imagine a tower defense game in which the towers are regular expressions with
-cooldown. You upgrade them by making them less specific, so that they can chip
-away at the word enemies that roll ever closer.</p>
-
-<p>Imagine a game in which you are a regular expression engine. A regex comes in,
-and you have a limited number of clock cycles to understand it. Then inputs
-start to pour in and you have to rapidly populate and return match data. Too
-many mistakes and your library will gain a reputation as buggy; too slow and
-folks will complain.</p>
 ]]></content>
   </entry>
   
@@ -669,15 +339,6 @@ across this ethereal barrier could provide a mechanism for combining perspective
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[The Three Body Problem]]></title>
-    <link href="http://www.arrogantgamer.com/blog/2012/12/14/the-three-body-problem/"/>
-    <updated>2012-12-14T11:21:00-08:00</updated>
-    <id>http://www.arrogantgamer.com/blog/2012/12/14/the-three-body-problem</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Death Death Evolution]]></title>
     <link href="http://www.arrogantgamer.com/blog/2012/10/01/death-death-evolution/"/>
     <updated>2012-10-01T19:35:00-07:00</updated>
@@ -702,52 +363,6 @@ for personal gain, switch up the theme a bit, and make a truly golden game
 about ghosts or reincarnation or something.</p>
 
 <p>I guess that&rsquo;s what LD24 was all about.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Patience and Regret]]></title>
-    <link href="http://www.arrogantgamer.com/blog/2012/09/29/patience-and-regret/"/>
-    <updated>2012-09-29T12:49:00-07:00</updated>
-    <id>http://www.arrogantgamer.com/blog/2012/09/29/patience-and-regret</id>
-    <content type="html"><![CDATA[<p>There are three &lsquo;zones&rsquo;, collections of levels each of which give you a different flavor of game play. The
-ambient &lsquo;vanilla&rsquo; levels build on the theme of &lsquo;become the biggest&rsquo;. The other two zones change game play
-by introducing new elements: artificial lifeforms for you to compete with; and force attractors that act
-as a center of gravity. I still haven&rsquo;t figured out how to beat the force attractor levels, but the ambient
-and survival levels are great! Beating three ai motes at once is tricky, and took me several tries.</p>
-
-<p>Osmos contains one of my favorite underused mechanics: patience. I can
-understand why this mechanic doesn&rsquo;t get a lot of use. In Braid it was
-presented only to the most hardcore, and in SS&amp;S EP it was an opt-in
-system. In both cases, you didn&rsquo;t have to play the waiting game if you
-didn&rsquo;t want to&hellip; but in Osmos you better get used to it. In the force
-attractor levels you are in orbit around a central goo ball, and you
-want to be the biggest. Playing these levels I felt like I had close
-to zero agency. &ldquo;Hey man still in orbit around the force attractor?&rdquo;
-&ldquo;yeah, how bout you?&rdquo; &ldquo;yup. OK well, see you next time around.&rdquo; With
-each tearfully slow revolution you might pick up a tiny bit of mass,
-and in this manner you grow. Admittedly, Osmos does give you the option
-of speeding up time, which I discovered late in the levels by accident
-(I don&rsquo;t pay much attention to written instructions); even on fast
-forward you still end up spinning in circles for an eternity before
-you finally have enough mass to just leave and make a sandwich while
-you become the biggest. Great game! But listen, that&rsquo;s not all it takes.</p>
-
-<p>In addition to patience, the game rewards the &lsquo;letting go&rsquo;. I guess it
-is a very eastern-religion game in some sense: if you are aiming at
-a particular goo ball, and in your clumsy sputtering you manage to
-miss the mark, then you had better just let go. You could come to a full
-stop and reverse your momentum, or try to come around for a second pass,
-but in doing so you lose more than you probably will gain. The best
-thing to do when you lose something (like in real life) is to adjust your
-plan.</p>
-
-<p>Patience: become the biggest, and never look back.</p>
-
-<p>of which introduces a new element: opponents that behave
-in one way or another; force attractors around which all the motes orbit;</p>
-
-<p>The next few give us toy examples of the game&rsquo;s &lsquo;zones&rsquo;, each of which tests us by introducing new elements.</p>
 ]]></content>
   </entry>
   
@@ -808,15 +423,6 @@ with these little blue balls I can shove around. Oh shit I got bigger! Ha, and t
 to win!</p>
 
 <p>See: no need to instruct. Hey! Are you listening?</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[First Post]]></title>
-    <link href="http://www.arrogantgamer.com/blog/2012/09/17/first-post/"/>
-    <updated>2012-09-17T18:58:00-07:00</updated>
-    <id>http://www.arrogantgamer.com/blog/2012/09/17/first-post</id>
-    <content type="html"><![CDATA[<p>Whoa!</p>
 ]]></content>
   </entry>
   
