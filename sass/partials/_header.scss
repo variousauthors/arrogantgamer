@@ -45,6 +45,12 @@ body > header {
           height: 64px;
           border-radius: 32px;
           background-color: $base0;
+          @include transition(background-color 0.5s);
+
+          &:hover {
+              background-color: $solar-orange;
+              @include transition(background-color 0.7s);
+          }
 
           @media only screen and (max-width: 768px) {
               display: none;
