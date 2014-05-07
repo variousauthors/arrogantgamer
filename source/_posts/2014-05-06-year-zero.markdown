@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Year Zero"
+thumb: ""
+date: 2014-05-06 21:58:24 -0700
+comments: false
+published: false
+categories: ["anniversary!"]
+subtitle: "Oh my gosh, I'm a game dev!"
+whototweetat: [ "@arrogantgamer" ]
+---
+
+The year in review.
