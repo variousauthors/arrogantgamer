@@ -2,9 +2,9 @@ $noise-bg: none;
 $img-border: inline-image('dotted-border.png') !default;
 
 // Main Link Colors
-$link-color: $solar-magenta !default;
+$link-color: $solar-orange !default;
 $link-color-hover: adjust-color($link-color, $lightness: 10, $saturation: 25) !default;
-$link-color-visited: darken($solar-violet, 5) !default;
+$link-color-visited: darken($solar-orange, 0) !default;
 $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 
 // Main Section Colors
@@ -15,7 +15,7 @@ $article-border: #eeeeee !default;
 
 $header-bg: $main-bg !default;
 $header-border: lighten($header-bg, 15) !default;
-$title-color: $solar-violet !default;
+$title-color: $solar-orange !default;
 $subtitle-color: $base0 !default;
 
 $text-color: $base02 !default;
