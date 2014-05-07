@@ -4,7 +4,7 @@ title: "Misdirection & Dreams"
 thumb: "beneath-the-surface.png"
 date: 2014-05-02 18:25:30 -0700
 comments: false
-published: false
+published: true
 categories: ["LD48", "Jezzamonn", "LD29"]
 subtitle: "Hold 'shift' to play a better game"
 whototweetat: [ "@jezzamonn" ]
