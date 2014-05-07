@@ -19,11 +19,11 @@
 {% if index %}
 <div class="android-wrapper {% if content == "" %}hidden{% endif %}">
         <div class="entry">
-            <div role="overlay" class="scan-lines"></div>
+            <div class="scan-lines" role="overlay"></div>
             <div class="entry-thumb">
                 <img src="/images/thumbs/{{ post.thumb }}">
             </div>
-            <div class="entry-content">{{ content | excerpt }}</div>
+            <div class="entry-content" data-article-preview data-href="{{ root_url }}{{ post.url }}">{{ content | excerpt }}</div>
             {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
             {% if excerpted == 'true' %}
 

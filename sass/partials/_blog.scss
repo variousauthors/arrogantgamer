@@ -52,6 +52,10 @@ article {
               padding: 5px;
               top: 45%;
               transition: top 0.5s ease 0s;
+
+              &[data-article-preview] {
+                  cursor: pointer;
+              }
           }
 
           .entry-content & h2:first-child, header + h2 { 
