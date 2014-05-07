@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: GameDev | Arrogant Gamer]]></title>
+  <link href="http://www.arrogantgamer.com/blog/categories/gamedev/atom.xml" rel="self"/>
+  <link href="http://www.arrogantgamer.com/"/>
+  <updated>2014-05-06T21:55:23-07:00</updated>
+  <id>http://www.arrogantgamer.com/</id>
+  <author>
+    <name><![CDATA[Arrogant Gamer]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Cicero]]></title>
+    <link href="http://www.arrogantgamer.com/blog/2013/12/08/cicero/"/>
+    <updated>2013-12-08T14:59:00-08:00</updated>
+    <id>http://www.arrogantgamer.com/blog/2013/12/08/cicero</id>
+    <content type="html"><![CDATA[<p>[Ludum Dare 28][1] is coming up, and I plan on making something. I&rsquo;ve thought
+about trying to make a zelda-like, or a rogue-like, but of course I will leave
+the final decision up to fate and the theme. The tool I plan on using, however
+is now set in stone.</p>
+
+<!-- more -->
+
+
+<p>Of course, I&rsquo;m talking about
+<img class="center" src="/images/quintus_banner.png" title="&ldquo;Quintus&rdquo;" ></p>
+
+<p>In order to familiarize myself with the ins and outs of this up-and-coming
+HTML5 game development framework, I&rsquo;ve set myself to the task of implementing
+Signal with it. Last night (Dec 7th) I got a tilemap showing, added movement
+to the red drone, and then things got tricky.</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>the gameloop </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">Q</span><span class="p">.</span><span class="nx">load</span><span class="p">([</span> <span class="o">&amp;</span><span class="nx">ldquo</span><span class="p">;</span><span class="nx">signal_tiles</span><span class="p">.</span><span class="nx">png</span><span class="o">&amp;</span><span class="nx">rdquo</span><span class="p">;],</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">Q</span><span class="p">.</span><span class="nx">sheet</span><span class="p">(</span><span class="o">&amp;</span><span class="nx">ldquo</span><span class="p">;</span><span class="nx">signal</span><span class="o">&amp;</span><span class="nx">rdquo</span><span class="p">;,</span> <span class="o">&amp;</span><span class="nx">ldquo</span><span class="p">;</span><span class="nx">signal_tiles</span><span class="p">.</span><span class="nx">png</span><span class="o">&amp;</span><span class="nx">rdquo</span><span class="p">;,</span> <span class="p">{</span> <span class="nx">tilew</span><span class="o">:</span> <span class="mi">90</span><span class="p">,</span> <span class="nx">tileh</span><span class="o">:</span> <span class="mi">90</span><span class="p">,</span> <span class="nx">sx</span><span class="o">:</span><span class="mi">0</span><span class="p">,</span> <span class="nx">sy</span><span class="o">:</span><span class="mi">0</span> <span class="p">});</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span>  <span class="kd">var</span> <span class="nx">actors</span> <span class="o">=</span> <span class="nx">digest_bitmap</span><span class="p">();</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span>  <span class="nx">Q</span><span class="p">.</span><span class="nx">gameLoop</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">dt</span><span class="p">)</span> <span class="p">{</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">pre</span><span class="o">&gt;&lt;</span><span class="nx">code</span><span class="o">&gt;</span><span class="kd">var</span> <span class="nx">i</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">for</span><span class="p">(</span><span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&amp;</span><span class="nx">lt</span><span class="p">;</span> <span class="nx">actors</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">actors</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">update</span><span class="p">(</span><span class="nx">dt</span><span class="p">);</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="nx">Q</span><span class="p">.</span><span class="nx">clear</span><span class="p">();</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">for</span><span class="p">(</span><span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&amp;</span><span class="nx">lt</span><span class="p">;</span> <span class="nx">actors</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">actors</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">render</span><span class="p">(</span><span class="nx">Q</span><span class="p">.</span><span class="nx">ctx</span><span class="p">);</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="o">&lt;</span><span class="err">/code&gt;&lt;/pre&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span>  <span class="p">});</span>
+</span><span class='line'><span class="p">});</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>At first I didn&rsquo;t really understand stages and scenes, I just wanted to feed
+in a bitmap and have the result be nice tiles. The <code>digest_bitmap</code> method
+does just that: I pass it a bitmap as an argument (at first is was hardcoded),
+and it gives me an array of actors, which will all be <code>Q.Sprite</code> objects.
+Having the gameloop there explicitly isn&rsquo;t necessary when you have scenes,
+but now &mdash; after refactoring to include scenes &mdash; I feel like I want my little
+gameloop back. I&rsquo;m not a game developer by education, so a lot of this stuff
+is pretty new to me, and I&rsquo;d kind of like to know what&rsquo;s going on in there.
+Fortunately, the Quintus source is pretty accessible.</p>
+
+<h2>Inheritance</h2>
+
+<p>One of the things I really liked about Signal was: all of the common objects
+behaved in basically the same way. In this implementation, I really want to
+take that further. I&rsquo;m going to define &ldquo;Block&rdquo; and &ldquo;Drone&rdquo; as parent classes,
+and have everything else in the game inherit from these.</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code half-width'><figcaption><span>drones! </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="nx">All</span> <span class="nx">the</span> <span class="nx">drone</span> <span class="nx">code</span><span class="o">!&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h3>Special Cases</h3>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code half-width'><figcaption><span>red drone </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="nx">The</span> <span class="nx">red</span> <span class="nx">drone</span> <span class="kd">with</span> <span class="nx">its</span> <span class="nx">swapping</span> <span class="nx">code</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h2>Events</h2>
+
+<p>Here I came up against Quintus' &ldquo;events&rdquo;, which don&rsquo;t work the way I
+expect, coming from a background in Backbone and MarionetteJS. When
+I think of events, I think of an announcement rather than a targeted
+message; I think of the actor paradigm and of concurrency. Quintus'
+events are not like this. When you trigger an event, you define
+explicitly the receiver. If you want to broadcast messages, you are
+going to have to do this yourself.</p>
+
+<p>This came as something of a disapointment to me, since I had expected that
+I would be able to implement drone control directly on top of Quintus'
+event management. However, it is also a good reminder that I am not
+building a website here!</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code half-width'><figcaption><span>control blocks </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="nx">Code</span> <span class="k">for</span> <span class="nx">the</span> <span class="nx">control</span> <span class="nx">blocks</span> <span class="o">&amp;</span><span class="nx">ldquo</span><span class="p">;</span><span class="nx">broadcasting</span><span class="o">&amp;</span><span class="nx">rdquo</span><span class="p">;</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h2>Components: Too Much Physics</h2>
+
+<p>Right away, after installing the &ldquo;2d&rdquo; component in the drones, I realized
+that I didn&rsquo;t really want a lot of physics in this game. The way things
+work in Quintus out-of-the-box you get smooth movement, and natural &ldquo;bounce&rdquo;.
+When you move a drone, it slides elegantly into its new position. When
+a drone collides with something, it bounces nicely off the surface.</p>
+
+<p>This was a great opportunity to really explore the &ldquo;2d&rdquo; and &ldquo;scene&rdquo; components,
+and try my hand at implementing a, albeit simpler, physics component.</p>
+]]></content>
+  </entry>
+  
+</feed>

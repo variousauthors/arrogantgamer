@@ -19,13 +19,15 @@ lovecraftian &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.arrogantgamer.com/blog/2013/06/24/ravenous/">
+  <link rel="canonical" href="http://www.arrogantgamer.com/blog/2013/06/24/ravenous">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="Arrogant Gamer" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <script src="/javascripts/article_overlay.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -44,60 +46,38 @@ lovecraftian &hellip;">
   </script>
 
 
-  <meta property="og:url" content="http://www.arrogantgamer.com/blog/2013/06/24/ravenous/">
-<meta property="og:type" content="website" />
-
-<meta property="og:title" content="Ravenous">
-<meta property="og:description" content="">
- 
-
-
 </head>
 
 <body   >
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="What is this for anyway?">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:www.arrogantgamer.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/games">Games</a></li>
-  <!-- <li><a href="/about">About Me</a></li> -->
-</ul>
+  <header role="banner"><hgroup class="brand">
+    <div>
+        <h1><a href="/">Arrogant Gamer</a></h1>
+        
+        <h2>play what I tell you to</h2>
+        
+    </div>
+</hgroup>
 
-</nav>
-  <header role="banner"><hgroup>
-  <h1><a href="/">Arrogant Gamer</a></h1>
-  
-    <h2>play what I tell you to</h2>
-  
+<hgroup class="identity-icons">
+    <a href="https://twitter.com/arrogantgamer"><img src="/images/icons/twitter-128.png" alt="twitter profile"></a>
+    <a href="http://gamejolt.com/profile/arrogant-gamer/139947/"><img src="/images/icons/gamejolt-128.png" alt="gamejolt profile"></a>
+    <a href="https://github.com/variousauthors"><img src="/images/icons/github-128.png" alt="github profile"></a>
 </hgroup>
 
 </header>
+  
   <div id="main">
     <div id="content">
       <div>
 <article class="hentry" role="article">
   
-  <header>
+<header>
     
-      <h1 class="entry-title"><a href="">Ravenous</a></h1>
-    
-    
-    <small>Beind scared will kill you brain?</small>
+    <h1 class="entry-title">Ravenous</h1>
     
     
-      <p class="meta">
-        
+    <p class="meta">
+    
 
 
 
@@ -109,14 +89,14 @@ lovecraftian &hellip;">
   
 
 
-<time datetime="2013-06-24T21:53:00+02:00" pubdate data-updated="true">Jun 24<span>th</span>, 2013</time>
-        
-      </p>
+<time datetime="2013-06-24T21:53:00-07:00" pubdate data-updated="true">Jun 24<span>th</span>, 2013</time>
     
-  </header>
+    </p>
+    
+</header>
 
 
-<div class="entry-content"><p>The creators of <a href="http://jonathanwhiting.com/ld/23/">Niña Nueve</a> (<a href="https://twitter.com/whitingjp">@whitingjp</a>) and <a href="http://www.newgrounds.com/portal/view/585599">These Robotic Hearts of Mine</a> (<a href="https://twitter.com/draknek">@Draknek</a>; an all time favorite of mine) comes <a href="http://jonathanwhiting.com/coding/traal/">Traal</a>, the
+    <div class="entry-content"><p>The creators of <a href="http://jonathanwhiting.com/ld/23/">Niña Nueve</a> (<a href="https://twitter.com/whitingjp">@whitingjp</a>) and <a href="http://www.newgrounds.com/portal/view/585599">These Robotic Hearts of Mine</a> (<a href="https://twitter.com/draknek">@Draknek</a>; an all time favorite of mine) comes <a href="http://jonathanwhiting.com/coding/traal/">Traal</a>, the
 lovecraftian reverse stealth-em-up action puzzler for mobile and flash. Could we ask for anything more? A blindfold, perhaps?</p>
 
 <!-- More -->
@@ -127,17 +107,17 @@ lovecraftian reverse stealth-em-up action puzzler for mobile and flash. Could we
 <p><a href="http://jonathanwhiting.com/coding/traal/">Traal</a> is an interesting reversal of the stealth game genre that takes place in a dungeon filled with spikes. The hero has a flashlight, and wherever she turns
 the flashlight shines. If the flashlight lights up a monster, the hero freaks the fuck out and the player loses control of her for a moment. In a dungeon filled
 with spikes, this momentary loss of control can mean death. Interestingly, the monsters (while deadly) rarely seem particularly interested in the hero, and ultimately
-the enemy is her fear of the environment. Later in the game, she finds a blindfold and things get interesting. When the hero is wearing the blindfold, she can&#8217;t see
-anything and the screen goes black. Now the player can still maneuver, and the monsters are still deadly, but the hero won&#8217;t freak out.</p>
+the enemy is her fear of the environment. Later in the game, she finds a blindfold and things get interesting. When the hero is wearing the blindfold, she can&rsquo;t see
+anything and the screen goes black. Now the player can still maneuver, and the monsters are still deadly, but the hero won&rsquo;t freak out.</p>
 
 <p><span class='pullquote-right' data-pullquote='The blindfold introduces an element of non-sighted play'></p>
 
 <p>The blindfold introduces an element of non-sighted play: the player now has the option of switching from sighted to non-sighted, and there are benefits to both.
 In many rooms it is easy enough to memorize the layout and then feel your way through, but some rooms are too complicated for this to be effective.</p>
 
-<p>The pace of this game is excellent, and it does an excellent job of wordlessly teaching the player how to play. I hope that one day that won&#8217;t bare saying,
-but <a href="http://www.arrogantgamer.com/blog/2012/09/22/osmos/">as we&#8217;ve seen</a>, even the most abstract games can mess this up. I especially love the feeling I get in Traal when walking into a trickier version of an early
-lesson. I can almost hear the authors saying, &#8220;ok, but now the walls are spikes&#8221;.</p>
+<p>The pace of this game is excellent, and it does an excellent job of wordlessly teaching the player how to play. I hope that one day that won&rsquo;t bare saying,
+but <a href="/blog/2012/09/22/osmos/">as we&rsquo;ve seen</a>, even the most abstract games can mess this up. I especially love the feeling I get in Traal when walking into a trickier version of an early
+lesson. I can almost hear the authors saying, &ldquo;ok, but now the walls are spikes&rdquo;.</p>
 
 <p></span></p>
 </div>
@@ -162,7 +142,7 @@ lesson. I can almost hear the authors saying, &#8220;ok, but now the walls are s
   
 
 
-<time datetime="2013-06-24T21:53:00+02:00" pubdate data-updated="true">Jun 24<span>th</span>, 2013</time>
+<time datetime="2013-06-24T21:53:00-07:00" pubdate data-updated="true">Jun 24<span>th</span>, 2013</time>
       
 
 <span class="categories">
@@ -173,15 +153,6 @@ lesson. I can almost hear the authors saying, &#8220;ok, but now the walls are s
 
 
     </p>
-    
-      <div class="sharing">
-  
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.arrogantgamer.com/blog/2013/06/24/ravenous/" data-via="ArrogantGamer" data-counturl="http://www.arrogantgamer.com/blog/2013/06/24/ravenous/" >Tweet</a>
-  
-  
-  
-</div>
-
     
     <p class="meta">
       
@@ -208,7 +179,7 @@ a game has a title, the name of that game
 <section>
   <h1>The Playlist</h1>
   <small>I will play these soon</small>
-    <ul id='playlist'><li class='game'><a href=http://www.kickstarter.com/projects/ackkstudios/two-brothers-0>Two Brothers</a></br><small>GBC era adventure RPG</small></li><li class='game'><a href=http://www.antichamber-game.com/>Antichamber</a></br><small>mind-bending first-person puzzler</small></li><li class='game'><a href=http://store.steampowered.com/app/227080/>Papo and yo</a></br><small>fairy tale in a Brazilian shanty town</small></li><li class='game'><a href=http://kairo.lockeddoorpuzzle.com/>Kairo</a></br><small>atmospheric 3D puzzling</small></li><li class='game'><a href=http://rememberingthegame.com/>Remembering</a></br><small>poetic exploration game</small></li><li class='game'><a href=http://www.visitproteus.com/?page_id=402&preview=true#buysection>Proteus</a></br><small>playable wanderlust</small></li><li class='game'><a href=http://evoland.shirogames.com/>EvoLand</a></br><small>a brief history of RPGs</small></li><li class='game'><a href=http://www.seewithperspective.com/>Perspective</a></br><small>that russian doll game</small></li><li class='game'><a href=http://www.rememberme.com/>Remember Me</a></br><small>cyberpunk as it aught to be</small></li><li class='game'><a href=http://contrastgame.com/>Contrast</a></br><small>portalesque that tells a sisters' story</small></li></ul>
+    <ul id='playlist'><li class='game'><a href=http://kairo.lockeddoorpuzzle.com/>Kairo</a></br><small>atmospheric 3D puzzling</small></li><li class='game'><a href=http://www.visitproteus.com/?page_id=402&preview=true#buysection>Proteus</a></br><small>playable wanderlust</small></li><li class='game'><a href=http://evoland.shirogames.com/>EvoLand</a></br><small>a brief history of RPGs</small></li><li class='game'><a href=http://www.kickstarter.com/projects/ackkstudios/two-brothers-0>Two Brothers</a></br><small>GBC era adventure RPG</small></li><li class='game'><a href=http://rememberingthegame.com/>Remembering</a></br><small>poetic exploration game</small></li><li class='game'><a href=http://www.seewithperspective.com/>Perspective</a></br><small>that russian doll game</small></li><li class='game'><a href=http://www.rememberme.com/>Remember Me</a></br><small>cyberpunk as it aught to be</small></li><li class='game'><a href=http://contrastgame.com/>Contrast</a></br><small>portalesque that tells a sisters' story</small></li><li class='game'><a href=http://steamcommunity.com/sharedfiles/filedetails/?id=247896958>Cult of the Wind</a></br><small>Nyaaaaan gagagagaga!</small></li><li class='game'><a href=http://marctenbosch.com/miegakure/>Miegakure</a></br><small>Just another 4D puzzle/platformer?</small></li><li class='game'><a href=http://www.eventheocean.com/>Even the Ocean</a></br><small>A video game for the computer.</small></li><li class='game'><a href=http://www.heart-machine.com>Hyper Light Drifter</a></br><small>Like a driftier S&S</small></li></ul>
 </section>
 
   
@@ -218,7 +189,7 @@ a game has a title, the name of that game
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Arrogant Gamer -
+  Copyright &copy; 2014 - Arrogant Gamer -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
@@ -236,7 +207,7 @@ a game has a title, the name of that game
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>

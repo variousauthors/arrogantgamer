@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Year of the Twitch | Arrogant Gamer]]></title>
+  <link href="http://www.arrogantgamer.com/blog/categories/year-of-the-twitch/atom.xml" rel="self"/>
+  <link href="http://www.arrogantgamer.com/"/>
+  <updated>2014-05-06T21:55:23-07:00</updated>
+  <id>http://www.arrogantgamer.com/</id>
+  <author>
+    <name><![CDATA[Arrogant Gamer]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Meat's Edge]]></title>
+    <link href="http://www.arrogantgamer.com/blog/2013/07/26/meats-edge/"/>
+    <updated>2013-07-26T16:20:00-07:00</updated>
+    <id>http://www.arrogantgamer.com/blog/2013/07/26/meats-edge</id>
+    <content type="html"><![CDATA[<p>Meat&rsquo;s Edge is a first person take on the unforgiving twitch platformer,
+that doesn&rsquo;t shy away from nausea and vomit. Missing a jump generally means
+being torn into pink strips and recycled, rather than shimmying up a red pipe.</p>
+
+<!-- more -->
+
+
+<p>Meat&rsquo;s Edge takes human reflexes to the extreme. It takes all the vomit
+inducing vertigo of <a href="http://www.penny-arcade.com/comic/2008/11/03"> Mirror&rsquo;s Edge </a> and just runs with it: camera angles are
+spinning and flailing as your body rag-dolls madly after a failed landing.
+More rolling, more cart-wheels, and more acrobatics. You spend the game
+sprinting across rooftops, but unlike in Mirror&rsquo;s Edge the rooftops of this
+<a href="http://aliendovecote.com/uploads/twine/tycoon/crime.html">post neo-capitalist global empire</a> are designed to deter runners with the same
+vicious geometry that modern architecture leverages against pigeons and the
+homeless. I&rsquo;m talking about spikes. This is is not a world that was designed
+by the naive: they know what you are and what you do, and everything up here
+is intended to stop you.</p>
+
+<p>Surround your pullquote like this {" text to be quoted "}</p>
+
+<p>Surround your pullquote like this {" text to be quoted "}</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[10,000 Ninjas]]></title>
+    <link href="http://www.arrogantgamer.com/blog/2013/07/26/ten-thousand-ninjas/"/>
+    <updated>2013-07-26T14:29:00-07:00</updated>
+    <id>http://www.arrogantgamer.com/blog/2013/07/26/ten-thousand-ninjas</id>
+    <content type="html"><![CDATA[<p>In 10,000 Ninjas, you must combine insane twitch platforming, with patience,
+focus and careful observation. Combine the precision and time constraints of
+<a href="http://supermeatboy.com/"> Super Meat Boy </a> with the vexation of <a href="http://tenchu.wikia.com/wiki/Tenchu:_Stealth_Assassins">Tenchu</a> or <a href="http://www.markoftheninja.com/">Mark of the Ninja</a>,
+and you&rsquo;ve got 10,000 Ninjas.</p>
+
+<!-- more -->
+
+
+<p>Sometimes, when I&rsquo;m sitting in a passport office on a warm day, or sipping
+coldbrew on a courtyard patio, I&rsquo;ll experience strange dreams. During
+these times I find myself playing games that don&rsquo;t yet, or may never,
+exist. Mashing old games together, or stripping them apart&hellip; Digesting my
+nostalgia? Today I played 10,000 Ninjas.</p>
+
+<p>Surround your pullquote like this {" text to be quoted "}</p>
+
+<p>Surround your pullquote like this {" text to be quoted "}</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ludum Dare | Arrogant Gamer]]></title>
   <link href="http://www.arrogantgamer.com/blog/categories/ludum-dare/atom.xml" rel="self"/>
   <link href="http://www.arrogantgamer.com/"/>
-  <updated>2013-12-02T22:18:19+01:00</updated>
+  <updated>2014-05-06T21:55:23-07:00</updated>
   <id>http://www.arrogantgamer.com/</id>
   <author>
     <name><![CDATA[Arrogant Gamer]]></name>
@@ -14,53 +14,186 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Elements of non-sighted play]]></title>
-    <link href="http://www.arrogantgamer.com/blog/2013/06/25/elements-of-non-sighted-play/"/>
-    <updated>2013-06-25T21:53:00+02:00</updated>
-    <id>http://www.arrogantgamer.com/blog/2013/06/25/elements-of-non-sighted-play</id>
-    <content type="html"><![CDATA[<p>I recently became excited about the prospect of games for non-sighted people. This came after playing a couple of LD26 games that involved
-elements of non-sighted play. These were <a href="http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&amp;uid=1158">Conversion</a>, and <a href="http://rac7.com/YouMustEscape/">You Must Escape</a>, and they succeed in being about accessibility without being accessible.</p>
+    <title type="html"><![CDATA[Cicero]]></title>
+    <link href="http://www.arrogantgamer.com/blog/2013/12/08/cicero/"/>
+    <updated>2013-12-08T14:59:00-08:00</updated>
+    <id>http://www.arrogantgamer.com/blog/2013/12/08/cicero</id>
+    <content type="html"><![CDATA[<p>[Ludum Dare 28][1] is coming up, and I plan on making something. I&rsquo;ve thought
+about trying to make a zelda-like, or a rogue-like, but of course I will leave
+the final decision up to fate and the theme. The tool I plan on using, however
+is now set in stone.</p>
 
 <!-- more -->
 
 
-<p><img class="center" src="/images/conversion.png" title="&#34;Conversion&#34;" alt="&#34;Conversion&#34;"></p>
+<p>Of course, I&rsquo;m talking about
+<img class="center" src="/images/quintus_banner.png" title="&ldquo;Quintus&rdquo;" ></p>
 
-<p><span class='pullquote-right' data-pullquote='you should really
-skip this bit and just play the damn game, that would be easier'>
-<a href="http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&amp;uid=1158">Conversion</a> is a 1st (or possibly 3rd) person shooter that relies on none of the visual cues FPS players have been trained to use. The screen is black at all times,
-except when messages concerning the state of the environment are displayed, these being "you bumped into a wall!" or "there is something soft and wet at your feet".
-The rest of the game information is conveyed with audio cues, such as a dripping noise, your own heartbeat, or a gunshot. These effects are presented using positional audio,
-so that the player wearing headphones can effectively navigate to the source of a sound by positioning it directly in front of them and moving forward (you should really
-skip this bit and just play the damn game, that would be easier).</p>
+<p>In order to familiarize myself with the ins and outs of this up-and-coming
+HTML5 game development framework, I&rsquo;ve set myself to the task of implementing
+Signal with it. Last night (Dec 7th) I got a tilemap showing, added movement
+to the red drone, and then things got tricky.</p>
 
-<p>Audio cues used in the game are gritty and emotional: water dripping in an empty room, a scratching noise, and a heartbeat are all very visceral. When I heard the gunshot
-noise for the first time I literally leapt from my chair. After that I kept my tongue tucked behind my teeth in anticipation of more punishing audio to come. Conversion is
-an excellent and effective game, and it was well received during LD26.
-</span></p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>the gameloop </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">Q</span><span class="p">.</span><span class="nx">load</span><span class="p">([</span> <span class="o">&amp;</span><span class="nx">ldquo</span><span class="p">;</span><span class="nx">signal_tiles</span><span class="p">.</span><span class="nx">png</span><span class="o">&amp;</span><span class="nx">rdquo</span><span class="p">;],</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">Q</span><span class="p">.</span><span class="nx">sheet</span><span class="p">(</span><span class="o">&amp;</span><span class="nx">ldquo</span><span class="p">;</span><span class="nx">signal</span><span class="o">&amp;</span><span class="nx">rdquo</span><span class="p">;,</span> <span class="o">&amp;</span><span class="nx">ldquo</span><span class="p">;</span><span class="nx">signal_tiles</span><span class="p">.</span><span class="nx">png</span><span class="o">&amp;</span><span class="nx">rdquo</span><span class="p">;,</span> <span class="p">{</span> <span class="nx">tilew</span><span class="o">:</span> <span class="mi">90</span><span class="p">,</span> <span class="nx">tileh</span><span class="o">:</span> <span class="mi">90</span><span class="p">,</span> <span class="nx">sx</span><span class="o">:</span><span class="mi">0</span><span class="p">,</span> <span class="nx">sy</span><span class="o">:</span><span class="mi">0</span> <span class="p">});</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span>  <span class="kd">var</span> <span class="nx">actors</span> <span class="o">=</span> <span class="nx">digest_bitmap</span><span class="p">();</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span>  <span class="nx">Q</span><span class="p">.</span><span class="nx">gameLoop</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">dt</span><span class="p">)</span> <span class="p">{</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">pre</span><span class="o">&gt;&lt;</span><span class="nx">code</span><span class="o">&gt;</span><span class="kd">var</span> <span class="nx">i</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">for</span><span class="p">(</span><span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&amp;</span><span class="nx">lt</span><span class="p">;</span> <span class="nx">actors</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">actors</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">update</span><span class="p">(</span><span class="nx">dt</span><span class="p">);</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="nx">Q</span><span class="p">.</span><span class="nx">clear</span><span class="p">();</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">for</span><span class="p">(</span><span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&amp;</span><span class="nx">lt</span><span class="p">;</span> <span class="nx">actors</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">actors</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">render</span><span class="p">(</span><span class="nx">Q</span><span class="p">.</span><span class="nx">ctx</span><span class="p">);</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="o">&lt;</span><span class="err">/code&gt;&lt;/pre&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span>  <span class="p">});</span>
+</span><span class='line'><span class="p">});</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
-<p>The game introduces a sighted audience to elements of the world perceived by non-sighted people; its title is a reference to a <a href="http://en.wikipedia.org/wiki/Conversion_disorder"> kind of neurological disorder </a> that
+<p>At first I didn&rsquo;t really understand stages and scenes, I just wanted to feed
+in a bitmap and have the result be nice tiles. The <code>digest_bitmap</code> method
+does just that: I pass it a bitmap as an argument (at first is was hardcoded),
+and it gives me an array of actors, which will all be <code>Q.Sprite</code> objects.
+Having the gameloop there explicitly isn&rsquo;t necessary when you have scenes,
+but now &mdash; after refactoring to include scenes &mdash; I feel like I want my little
+gameloop back. I&rsquo;m not a game developer by education, so a lot of this stuff
+is pretty new to me, and I&rsquo;d kind of like to know what&rsquo;s going on in there.
+Fortunately, the Quintus source is pretty accessible.</p>
+
+<h2>Inheritance</h2>
+
+<p>One of the things I really liked about Signal was: all of the common objects
+behaved in basically the same way. In this implementation, I really want to
+take that further. I&rsquo;m going to define &ldquo;Block&rdquo; and &ldquo;Drone&rdquo; as parent classes,
+and have everything else in the game inherit from these.</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code half-width'><figcaption><span>drones! </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="nx">All</span> <span class="nx">the</span> <span class="nx">drone</span> <span class="nx">code</span><span class="o">!&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h3>Special Cases</h3>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code half-width'><figcaption><span>red drone </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="nx">The</span> <span class="nx">red</span> <span class="nx">drone</span> <span class="kd">with</span> <span class="nx">its</span> <span class="nx">swapping</span> <span class="nx">code</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h2>Events</h2>
+
+<p>Here I came up against Quintus' &ldquo;events&rdquo;, which don&rsquo;t work the way I
+expect, coming from a background in Backbone and MarionetteJS. When
+I think of events, I think of an announcement rather than a targeted
+message; I think of the actor paradigm and of concurrency. Quintus'
+events are not like this. When you trigger an event, you define
+explicitly the receiver. If you want to broadcast messages, you are
+going to have to do this yourself.</p>
+
+<p>This came as something of a disapointment to me, since I had expected that
+I would be able to implement drone control directly on top of Quintus'
+event management. However, it is also a good reminder that I am not
+building a website here!</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code half-width'><figcaption><span>control blocks </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="nx">Code</span> <span class="k">for</span> <span class="nx">the</span> <span class="nx">control</span> <span class="nx">blocks</span> <span class="o">&amp;</span><span class="nx">ldquo</span><span class="p">;</span><span class="nx">broadcasting</span><span class="o">&amp;</span><span class="nx">rdquo</span><span class="p">;</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h2>Components: Too Much Physics</h2>
+
+<p>Right away, after installing the &ldquo;2d&rdquo; component in the drones, I realized
+that I didn&rsquo;t really want a lot of physics in this game. The way things
+work in Quintus out-of-the-box you get smooth movement, and natural &ldquo;bounce&rdquo;.
+When you move a drone, it slides elegantly into its new position. When
+a drone collides with something, it bounces nicely off the surface.</p>
+
+<p>This was a great opportunity to really explore the &ldquo;2d&rdquo; and &ldquo;scene&rdquo; components,
+and try my hand at implementing a, albeit simpler, physics component.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Elements of non-sighted play]]></title>
+    <link href="http://www.arrogantgamer.com/blog/2013/06/25/elements-of-non-sighted-play/"/>
+    <updated>2013-06-25T21:53:00-07:00</updated>
+    <id>http://www.arrogantgamer.com/blog/2013/06/25/elements-of-non-sighted-play</id>
+    <content type="html"><![CDATA[<p>I recently became excited about the prospect of games for non-sighted people. This came after playing a couple of LD26 games that involved
+elements of non-sighted play. These were <a href="http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&amp;uid=1158">Conversion</a>, and <a href="http://rac7.com/YouMustEscape/">You Must Escape</a>, and they succeed in being about accessibility without being accessible.</p>
+
+<p>I wrote about You Must Escape as <a href="/blog/2013/07/06/echo-beasts/">a separate post</a>.</p>
+
+<!-- more -->
+
+
+<p><img class="center" src="/images/conversion.png" title="&ldquo;Conversion&rdquo;" ></p>
+
+<p>Surround your pullquote like this {" text to be quoted "}</p>
+
+<p>The game introduces a sighted audience to elements of the world perceived by non-sighted people; its title is a reference to a <a href="http://en.wikipedia.org/wiki/Conversion_disorder">kind of neurological disorder</a> that
 can cause blindness.  That having been said, Conversion is not playable by non-sighted
-gamers, and this feels like an ironic and tragic oversight. Despite <a href="https://twitter.com/spiridios">@spiridios</a>' claim that "You cannot see, so you must complete the game using only your sense of hearing
-and sense of touch", Conversion actually relies on the gamer's sense of sight as well since it conveys certain spatial information in written messages. I want my review
-to remain positive, because Conversion really is a great game, but I also can't shy away from what I see as a glaring and embarrassing truth: a sighted gamer made a game
+gamers, and this feels like an ironic and tragic oversight. Despite <a href="https://twitter.com/spiridios">@spiridios</a>&lsquo; claim that &ldquo;You cannot see, so you must complete the game using only your sense of hearing
+and sense of touch&rdquo;, Conversion actually relies on the gamer&rsquo;s sense of sight as well since it conveys certain spatial information in written messages. I want my review
+to remain positive, because Conversion really is a great game, but I also can&rsquo;t shy away from what I see as a glaring and embarrassing truth: a sighted gamer made a game
 about being blind, without considering whether blind people would be able to play it too.</p>
 
-<p><span class='pullquote-right' data-pullquote='it is not interesting as a proof of concept'>
-Conversion really does shine as an innovative indie title, but it is not interesting as a proof of concept. There are already fully 3D first-person-shooters made by and for non-sighted gamers. If you sit down and give them a
-whirl as a sighted player... all I can say is that you will be stunned. Games like <a href="http://www.gmagames.com/sod.html"> Shades of Doom </a> and <a href="http://www.kaldobsky.com/audiogames/"> Swamp </a> are engineered to be complete, accessible FPS
-experiences -- an indie made for a game jam just can't compete. I took some time to play SOD as part of writing this post: it was extremely
-challenging for me to make any headway at all, but by all accounts this game broke ground. I haven't tried Swamp, but <a href="http://soundplay.pitchfork.com/articles/shining-in-the-darkness/">Jason Johnson</a>'s review got me pretty excited. These
-are the proof of concept games that could be considered landmarks in some way. Conversion is not them.
-</span></p>
+<p>Surround your pullquote like this {" text to be quoted "}</p>
 
-<p><span class='pullquote-right' data-pullquote='it was made to be experienced'>
-Conversion is something that those games aren't. I found the soundscape of Shades of Doom crowded and obnoxious. It was easy to navigate, with lots more
-beeps and audio cues, but it wasn't beautiful. SOD and Swamp are games that were made to be played.
-Conversion, on the other hand, was tight and personal; it was made to be experienced. In particular it was made to be exprienced by a group of sighted gamers,
-and to them it really was unique and new. This is well and good, but consider what was lost: Conversion could have been such
-a perfect experience to share with non-sighted gamers, if only it didn't rely on sight.
-</span></p>
+<p>Surround your pullquote like this {" text to be quoted "}</p>
 
 <p>There is a nice bridge to be built here, and the cost of construction is extremely low.</p>
 ]]></content>
@@ -69,24 +202,24 @@ a perfect experience to share with non-sighted gamers, if only it didn't rely on
   <entry>
     <title type="html"><![CDATA[Two LD26 Entries]]></title>
     <link href="http://www.arrogantgamer.com/blog/2013/05/20/two-ld26-entries/"/>
-    <updated>2013-05-20T18:09:00+02:00</updated>
+    <updated>2013-05-20T18:09:00-07:00</updated>
     <id>http://www.arrogantgamer.com/blog/2013/05/20/two-ld26-entries</id>
-    <content type="html"><![CDATA[<p><a href="http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&amp;uid=5275">DOE</a> and <a href="http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&amp;uid=2297">Bashland</a> are two LD26 games feel amazingly polished given that they were made in 48 hours. Bashland describes itself as a "Breakout Mario Mashup", and does an incredible job of being just that. DOE takes place in a detailed and nuanced world, in which dreams can touch reality.</p>
+    <content type="html"><![CDATA[<p><a href="http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&amp;uid=5275">DOE</a> and <a href="http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&amp;uid=2297">Bashland</a> are two LD26 games feel amazingly polished given that they were made in 48 hours. Bashland describes itself as a &ldquo;Breakout Mario Mashup&rdquo;, and does an incredible job of being just that. DOE takes place in a detailed and nuanced world, in which dreams can touch reality.</p>
 
 <!-- more -->
 
 
 <h3>DOE</h3>
 
-<p><img class="left-side" src="/images/we-can-all-dream.png" title="&#34;we can all dream&#34;" alt="&#34;we can all dream&#34;"></p>
+<p><img class="left-side" src="/images/we-can-all-dream.png" title="&ldquo;we can all dream&rdquo;" ></p>
 
-<p>One of the clever decisions in DOE is to have the game set in a detailed and nuanced world, without ever really referencing that world. In the author's own words, "The whole universe that I imagined is in the end much bigger than what is exposed in the game." DOE's gameplay is familiar -- it is a mixture of pushing blocks and avoiding guards -- but the visual elements, events, and ending give us a sense that we are experiencing the exposed edge of something bigger.</p>
+<p>One of the clever decisions in DOE is to have the game set in a detailed and nuanced world, without ever really referencing that world. In the author&rsquo;s own words, &ldquo;The whole universe that I imagined is in the end much bigger than what is exposed in the game.&rdquo; DOE&rsquo;s gameplay is familiar &mdash; it is a mixture of pushing blocks and avoiding guards &mdash; but the visual elements, events, and ending give us a sense that we are experiencing the exposed edge of something bigger.</p>
 
 <p>In the early areas you explore by pushing walls away, presumably with your mind, though there is also evidence to suggest that your mind powers are being suppressed somehow (thus, we may suspect that someone is helping you escape). Early on we get some clues by way of overheard conversation, or intrapersonal communication:</p>
 
-<p><blockquote><p>"Let them imagine you're dead, and you will be."</p></blockquote></p>
+<p><blockquote><p>&ldquo;Let them imagine you&rsquo;re dead, and you will be.&rdquo;</p></blockquote></p>
 
-<p><blockquote><p>"This is going to be tricky... and I can't dream!"</p></blockquote></p>
+<p><blockquote><p>&ldquo;This is going to be tricky&hellip; and I can&rsquo;t dream!&rdquo;</p></blockquote></p>
 
 <p>When the game ends, all I want it more. How do you make a game like this in 48 hours?</p>
 
@@ -94,18 +227,18 @@ a perfect experience to share with non-sighted gamers, if only it didn't rely on
 
 <p>Bashland, on the other hand, is not a subtly, nuanced or carefully constructed poem fit tightly in a 48 hour shell; it is a full blown explosion where nostalgia slams up against honestly amazing assets. When I started it, I had to double check that I was not, in fact, playing a jam game. The music, graphics, and gameplay are completely stunning and 100% communicate the subject. The music! It is just baddass.</p>
 
-<p><img class="center" src="/images/bashland.png" title="&#34;A Breakout Mario Mashup&#34;" alt="&#34;A Breakout Mario Mashup&#34;"></p>
+<p><img class="center" src="/images/bashland.png" title="&ldquo;A Breakout Mario Mashup&rdquo;" ></p>
 
-<p><blockquote><p>BASHLAND. When you played breakout, this is what you imagined you were playing. Nice slow reveal. @McFunkypants http://t.co/Cetc19ApVW #LD48</p><footer><strong>@ArrogantGamer</strong> <cite>A Truly Arrogant Man</cite></footer></blockquote></p>
+<p><blockquote><p>BASHLAND. When you played breakout, this is what you imagined you were playing. Nice slow reveal. @McFunkypants <a href="http://t.co/Cetc19ApVW">http://t.co/Cetc19ApVW</a> #LD48</p><footer><strong>@ArrogantGamer</strong> <cite>A Truly Arrogant Man</cite></footer></blockquote></p>
 
-<p>When I tweeted this, I actually hadn't read the author's statement quoted above. The game feels like Breakout literally breaking out of the restrictive old-school arcade genre -- it's as though the little ball finally bashed through its enclosure and into someone else's game. Gradually, we realize this is exactly what happened. It is so satisfying to bash your way through the old Mario stages, and the control is also really nice and smooth. Finally, if you manage to bash away too much of the level you can no longer win: so practice some restraint!</p>
+<p>When I tweeted this, I actually hadn&rsquo;t read the author&rsquo;s statement quoted above. The game feels like Breakout literally breaking out of the restrictive old-school arcade genre &mdash; it&rsquo;s as though the little ball finally bashed through its enclosure and into someone else&rsquo;s game. Gradually, we realize this is exactly what happened. It is so satisfying to bash your way through the old Mario stages, and the control is also really nice and smooth. Finally, if you manage to bash away too much of the level you can no longer win: so practice some restraint!</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Minimalism: Pyramid]]></title>
     <link href="http://www.arrogantgamer.com/blog/2013/05/15/minimalism-pyramid/"/>
-    <updated>2013-05-15T23:37:00+02:00</updated>
+    <updated>2013-05-15T23:37:00-07:00</updated>
     <id>http://www.arrogantgamer.com/blog/2013/05/15/minimalism-pyramid</id>
     <content type="html"><![CDATA[<p>Many LD26 games chose to incorporate the theme of Minimalism by being visually simple. Pyramid was visually simple as a consequence of being minimalist. Burgess chose to strip away the unnecessary elements of a rogue-like, and left us with a stunning piece of work. I will dwell on the degree to which Burgess hit the theme.</p>
 
@@ -114,23 +247,23 @@ a perfect experience to share with non-sighted gamers, if only it didn't rely on
 
 <p><img class="left-side" src="/images/pyramid.png"></p>
 
-<p>Minimalism presents something similar to prototype. I think that word has a bit of baggage: evoking an incomplete or fragile 'first try' that is a basis for greater efforts. Prototypes aren't just a quick slap job, they must also be the minimal viable product. That's why projects start as prototypes, but it is not to say that we can't also start with something bigger and then shave it down to a prototype. This is how I understood the LD26 theme, and I think that Burgess really expressed it well in Pyramid.</p>
+<p>Minimalism presents something similar to prototype. I think that word has a bit of baggage: evoking an incomplete or fragile &lsquo;first try&rsquo; that is a basis for greater efforts. Prototypes aren&rsquo;t just a quick slap job, they must also be the minimal viable product. That&rsquo;s why projects start as prototypes, but it is not to say that we can&rsquo;t also start with something bigger and then shave it down to a prototype. This is how I understood the LD26 theme, and I think that Burgess really expressed it well in Pyramid.</p>
 
 <p><img class="left-side" src="/images/hooked-lash.png">
 <img class="right-side" src="/images/one-of-the-corrupted.png"></p>
 
-<p>Pyramid's levels are squares of randomly generated passages; the hero's vision is limited, so when the levels start to get really big it starts to feel really murky. If Pyramid's levels didn't grow, we wouldn't understand the name. If Pyramid were called another name, we wouldn't understand why the levels grow. Remove either element and what remains doesn't make sense. Very little is embellished in Pyramid; there is very little excess. That's not to say there isn't anything left that could still be stripped away: burgess named things. Numbers appear on the screen to indicate the damage the hero deals or takes: this is enough to express the gradual powering up of the hero. Burgess, however, chose to name the different power levels. For example, in Pyramid "10" is called "Imperious Axe of Truth". The monsters are also named.</p>
+<p>Pyramid&rsquo;s levels are squares of randomly generated passages; the hero&rsquo;s vision is limited, so when the levels start to get really big it starts to feel really murky. If Pyramid&rsquo;s levels didn&rsquo;t grow, we wouldn&rsquo;t understand the name. If Pyramid were called another name, we wouldn&rsquo;t understand why the levels grow. Remove either element and what remains doesn&rsquo;t make sense. Very little is embellished in Pyramid; there is very little excess. That&rsquo;s not to say there isn&rsquo;t anything left that could still be stripped away: burgess named things. Numbers appear on the screen to indicate the damage the hero deals or takes: this is enough to express the gradual powering up of the hero. Burgess, however, chose to name the different power levels. For example, in Pyramid &ldquo;10&rdquo; is called &ldquo;Imperious Axe of Truth&rdquo;. The monsters are also named.</p>
 
-<p>In terms of how the game plays: it is smooth and fun. The game teaches us all the necessary mechanics in the first 3 levels, and then just gets tougher and tougher. The only thing that is left to us to discover is how combat works. I found out around level 12 that if you touch an enemy you attack it. That's not all though: unlike a run-of-the-mill rogue-like, it is possible to dance with enemies and outwit them. For me this is great: the game is not just a resource management slog, it involves patience and wit as well.</p>
+<p>In terms of how the game plays: it is smooth and fun. The game teaches us all the necessary mechanics in the first 3 levels, and then just gets tougher and tougher. The only thing that is left to us to discover is how combat works. I found out around level 12 that if you touch an enemy you attack it. That&rsquo;s not all though: unlike a run-of-the-mill rogue-like, it is possible to dance with enemies and outwit them. For me this is great: the game is not just a resource management slog, it involves patience and wit as well.</p>
 
-<p>The game goes on forever, but I've been assured that level 48 is the last time any new content is introduced.</p>
+<p>The game goes on forever, but I&rsquo;ve been assured that level 48 is the last time any new content is introduced.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Death Death Evolution]]></title>
     <link href="http://www.arrogantgamer.com/blog/2012/10/01/death-death-evolution/"/>
-    <updated>2012-10-01T19:35:00+02:00</updated>
+    <updated>2012-10-01T19:35:00-07:00</updated>
     <id>http://www.arrogantgamer.com/blog/2012/10/01/death-death-evolution</id>
     <content type="html"><![CDATA[<p>In Death Death Evolution, there is no escape. You must die to advance.
 This game proposes a new relationship between the platform
@@ -138,7 +271,7 @@ jumper and the pits. In later stages I was actively looking for places
 where I could die in a particular way, in order to unlock the tools I
 might need later. There are even levels where you can die in irrelevant
 ways, if you choose to, so that if you want to you can be stingy with death,
-or feed her to bursting in order to fully 'power up'.</p>
+or feed her to bursting in order to fully &lsquo;power up&rsquo;.</p>
 
 <!-- more -->
 
@@ -146,12 +279,12 @@ or feed her to bursting in order to fully 'power up'.</p>
 <p><img class="right-side" src="/images/dde.png"></p>
 
 <p>Nice game: I want more. More different animals, evolution abilities that
-make more sense (I mean... I fell on spikes and could subsequently break
+make more sense (I mean&hellip; I fell on spikes and could subsequently break
 balloons with my head). I think we could take the mechanic of dying
 for personal gain, switch up the theme a bit, and make a truly golden game
 about ghosts or reincarnation or something.</p>
 
-<p><blockquote class='imagine-with-me'><p>Let the player control people who are in touch with the spirit world. Mediums.<br/>You lead them about, and when they come in contact with a ghost they take on<br/>some aspect of that ghost's former life. At first, there are not ghosts and only<br/>a collection of living mediums. The player strategically kills off her mediums,<br/>forcing them to haunt the place of their death but also allowing later mediums to<br/>proceed further through the game. Perhaps there is an economy of souls, such that<br/>a player must be careful who is killed when.</p></blockquote></p>
+<p>I guess that&rsquo;s what LD24 was all about.</p>
 ]]></content>
   </entry>
   
