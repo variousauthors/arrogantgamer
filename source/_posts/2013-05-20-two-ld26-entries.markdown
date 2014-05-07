@@ -2,6 +2,7 @@
 layout: post
 title: "Two LD26 Entries"
 date: 2013-05-20 18:09
+thumb: "two_ld26_titles.png"
 comments: false
 published: true
 categories: ["LD26", "Ludum Dare", "DOE", "Bashland"]

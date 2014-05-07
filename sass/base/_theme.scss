@@ -1,24 +1,25 @@
-$noise-bg: image-url('noise.png') top left !default;
-$img-border: inline-image('dotted-border.png');
+$noise-bg: none;
+$img-border: inline-image('dotted-border.png') !default;
 
 // Main Link Colors
-$link-color: lighten(#165b94, 3) !default;
+$link-color: $solar-orange !default;
 $link-color-hover: adjust-color($link-color, $lightness: 10, $saturation: 25) !default;
-$link-color-visited: adjust-color($link-color, $hue: 80, $lightness: -4) !default;
+$link-color-visited: darken($solar-orange, 0) !default;
 $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 
 // Main Section Colors
-$main-bg: #f8f8f8 !default;
-$page-bg: #ffcc33 !default;
+$main-bg: $base3 !default;
+$page-bg: white !default;
+$ziggy-full: url("/images/ziggy.png") no-repeat scroll -180px 0 / 59% auto rgba(0, 0, 0, 0) !default;
 $article-border: #eeeeee !default;
 
-$header-bg: #333 !default;
+$header-bg: $main-bg !default;
 $header-border: lighten($header-bg, 15) !default;
-$title-color: #000000 !default;
-$subtitle-color: #aaa !default;
+$title-color: $solar-orange !default;
+$subtitle-color: $base0 !default;
 
-$text-color: #222 !default;
-$text-color-light: #aaa !default;
+$text-color: $base02 !default;
+$text-color-light: $base0 !default;
 $type-border: #ddd !default;
 
 /* Navigation */
@@ -35,17 +36,6 @@ $nav-border-left: darken($nav-bg, 11) !default;
 $nav-border-right: lighten($nav-bg, 7) !default;
 
 /* Sidebar colors */
-$sidebar-bg: #f2f2f2 !default;
-$sidebar-link-color: $link-color !default;
-$sidebar-link-color-hover: $link-color-hover !default;
-$sidebar-link-color-active: $link-color-active !default;
-$sidebar-color: change-color(mix($text-color, $sidebar-bg, 80), $hue: hue($sidebar-bg), $saturation: saturation($sidebar-bg)/2) !default;
-$sidebar-border: desaturate(darken($sidebar-bg, 7), 10) !default;
-$sidebar-border-hover: darken($sidebar-bg, 7) !default;
-$sidebar-link-color-subdued: lighten($sidebar-color, 20) !default;
-$sidebar-link-color-subdued-hover: $sidebar-link-color-hover !default;
-$twitter-status-link: lighten($sidebar-link-color-subdued, 15) !default;
-
 $footer-color: #888 !default;
 $footer-bg: #ccc !default;
 $footer-bg-front: image-url('noise.png') !default;
@@ -58,6 +48,15 @@ $footer-link-color: darken($footer-bg, 38) !default;
 $footer-link-color-hover: darken($footer-color, 25) !default;
 $page-border-bottom: darken($footer-bg, 5) !default;
 
+$sidebar-bg: $page-bg !default;
+$sidebar-link-color: $text-color !default;
+$sidebar-link-color-hover: $link-color-hover !default;
+$sidebar-link-color-active: $link-color-active !default;
+$sidebar-color: change-color(mix($text-color, $sidebar-bg, 80), $hue: hue($sidebar-bg), $saturation: saturation($sidebar-bg)/2) !default;
+$sidebar-border: $page-border-bottom !default;
+$sidebar-border-hover: darken($sidebar-bg, 7) !default;
+$sidebar-link-color-subdued: lighten($sidebar-color, 20) !default;
+$sidebar-link-color-subdued-hover: $sidebar-link-color-hover !default;
 
 /* Core theme application */
 
@@ -72,15 +71,17 @@ a {
 }
 
 html {
-  background: $page-bg;
+    @media only screen and (min-width: 1200px) {
+        background: $ziggy-full;
+    }
 }
+
 body {
   > div {
     background: $sidebar-bg $noise-bg;
-    border-bottom: 1px solid $page-border-bottom;
     > div {
       background: $main-bg $noise-bg;
-      border-right: 1px solid $sidebar-border;
+      border-right: 1px solid $page-border-bottom;
     }
   }
 }

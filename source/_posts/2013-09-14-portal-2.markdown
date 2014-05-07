@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Portal 2"
+thumb: "portal_2.png"
 date: 2013-09-14 21:32
 comments: false
 published: false

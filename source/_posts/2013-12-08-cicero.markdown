@@ -1,0 +1,111 @@
+---
+layout: post
+title: "Cicero"
+thumb: "quintus.png"
+date: 2013-12-08 14:59
+comments: true
+published: false
+categories: ["Quintus", "Ludum Dare", "GameDev", "Signal"]
+subtitle: "In which arrogant.gamer records his journey"
+---
+
+[Ludum Dare 28][1] is coming up, and I plan on making something. I've thought
+about trying to make a zelda-like, or a rogue-like, but of course I will leave
+the final decision up to fate and the theme. The tool I plan on using, however
+is now set in stone.
+
+<!-- more -->
+
+Of course, I'm talking about
+{% img center /images/quintus_banner.png "Quintus" %}
+
+In order to familiarize myself with the ins and outs of this up-and-coming
+HTML5 game development framework, I've set myself to the task of implementing
+Signal with it. Last night (Dec 7th) I got a tilemap showing, added movement
+to the red drone, and then things got tricky.
+
+{% codeblock lang:javascript the gameloop %}
+Q.load([ "signal_tiles.png"], function() {
+  Q.sheet("signal", "signal_tiles.png", { tilew: 90, tileh: 90, sx:0, sy:0 });
+
+  var actors = digest_bitmap();
+
+  Q.gameLoop(function (dt) {
+    var i;
+
+    for(i = 0; i < actors.length; i++) {
+      actors[i].update(dt);
+    }
+
+    Q.clear();
+
+    for(i = 0; i < actors.length; i++) {
+      actors[i].render(Q.ctx);
+    }
+  });
+});
+{% endcodeblock %}
+
+At first I didn't really understand stages and scenes, I just wanted to feed
+in a bitmap and have the result be nice tiles. The `digest_bitmap` method
+does just that: I pass it a bitmap as an argument (at first is was hardcoded),
+and it gives me an array of actors, which will all be `Q.Sprite` objects.
+Having the gameloop there explicitly isn't necessary when you have scenes,
+but now -- after refactoring to include scenes -- I feel like I want my little
+gameloop back. I'm not a game developer by education, so a lot of this stuff
+is pretty new to me, and I'd kind of like to know what's going on in there.
+Fortunately, the Quintus source is pretty accessible.
+
+## Inheritance
+
+One of the things I really liked about Signal was: all of the common objects
+behaved in basically the same way. In this implementation, I really want to
+take that further. I'm going to define "Block" and "Drone" as parent classes,
+and have everything else in the game inherit from these.
+
+{% codeblock class:half-width lang:javascript drones! %}
+
+All the drone code!
+
+{% endcodeblock %}
+
+### Special Cases
+
+{% codeblock class:half-width lang:javascript red drone %}
+
+The red drone with its swapping code
+
+{% endcodeblock %}
+
+## Events
+
+Here I came up against Quintus' "events", which don't work the way I
+expect, coming from a background in Backbone and MarionetteJS. When
+I think of events, I think of an announcement rather than a targeted
+message; I think of the actor paradigm and of concurrency. Quintus'
+events are not like this. When you trigger an event, you define
+explicitly the receiver. If you want to broadcast messages, you are
+going to have to do this yourself.
+
+This came as something of a disapointment to me, since I had expected that
+I would be able to implement drone control directly on top of Quintus'
+event management. However, it is also a good reminder that I am not
+building a website here!
+
+{% codeblock class:half-width lang:javascript control blocks %}
+
+Code for the control blocks "broadcasting"
+
+{% endcodeblock %}
+
+## Components: Too Much Physics
+
+Right away, after installing the "2d" component in the drones, I realized
+that I didn't really want a lot of physics in this game. The way things
+work in Quintus out-of-the-box you get smooth movement, and natural "bounce".
+When you move a drone, it slides elegantly into its new position. When
+a drone collides with something, it bounces nicely off the surface.
+
+This was a great opportunity to really explore the "2d" and "scene" components,
+and try my hand at implementing a, albeit simpler, physics component.
+

@@ -49,24 +49,26 @@ module Jekyll
   class CodeBlock < Liquid::Block
     include HighlightCode
     include TemplateWrapper
-    CaptionUrlTitle = /(\S[\S\s]*)\s+(https?:\/\/)(\S+)\s+(.+)/i
-    CaptionUrl = /(\S[\S\s]*)\s+(https?:\/\/)(\S+)/i
+    CaptionUrlTitle = /(\S[\S\s]*)\s+(https?:\/\/\S+|\/\S+)\s*(.+)?/i
     Caption = /(\S[\S\s]*)/
     def initialize(tag_name, markup, tokens)
       @title = nil
       @caption = nil
       @filetype = nil
       @highlight = true
-      if markup =~ /\s*lang:(\w+)/i
+      if markup =~ /\s*lang:(\S+)/i
         @filetype = $1
-        markup = markup.sub(/lang:\w+/i,'')
+        markup = markup.sub(/\s*lang:(\S+)/i,'')
+      end
+      if markup =~ /\s*class:(\S+)/i
+        @className = "code #{$1}"
+        markup = markup.sub(/\s*class:(\S+)/i,'')
+      else
+        @className = "code"
       end
       if markup =~ CaptionUrlTitle
         @file = $1
-        @caption = "<figcaption><span>#{$1}</span><a href='#{$2 + $3}'>#{$4}</a></figcaption>"
-      elsif markup =~ CaptionUrl
-        @file = $1
-        @caption = "<figcaption><span>#{$1}</span><a href='#{$2 + $3}'>link</a></figcaption>"
+        @caption = "<figcaption><span>#{$1}</span><a href='#{$2}'>#{$3 || 'link'}</a></figcaption>"
       elsif markup =~ Caption
         @file = $1
         @caption = "<figcaption><span>#{$1}</span></figcaption>\n"
@@ -80,10 +82,10 @@ module Jekyll
     def render(context)
       output = super
       code = super
-      source = "<figure class='code'>"
+      source = "<figure class='#{@className}'>"
       source += @caption if @caption
       if @filetype
-        source += " #{highlight(code, @filetype)}</figure>"
+        source += "#{highlight(code, @filetype)}</figure>"
       else
         source += "#{tableize_code(code.lstrip.rstrip.gsub(/</,'&lt;'))}</figure>"
       end

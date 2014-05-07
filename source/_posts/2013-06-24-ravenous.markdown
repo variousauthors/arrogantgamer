@@ -2,6 +2,7 @@
 layout: post
 title: "Ravenous"
 date: 2013-06-24 21:53
+thumb: "traal.png"
 comments: false
 published: true
 categories: ['Traal', 'mobile', 'stealth', 'reverse', 'non-sighted']
@@ -39,4 +40,4 @@ lesson. I can almost hear the authors saying, "ok, but now the walls are spikes"
 [5]: http://www.draknek.org/games/traal/
 [6]: https://twitter.com/whitingjp
 [7]: https://twitter.com/draknek
-[8]: http://www.arrogantgamer.com/blog/2012/09/22/osmos/
+[8]: /blog/2012/09/22/osmos/

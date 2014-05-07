@@ -1,24 +1,18 @@
 ---
 games:
- - name: Two Brothers
-   url: http://www.kickstarter.com/projects/ackkstudios/two-brothers-0
-   brief: 'GBC era adventure RPG'
-
  - name: Antichamber
    url: http://www.antichamber-game.com/
    brief: 'mind-bending first-person puzzler'
+   done: true
 
  - name: Papo and yo
    url: http://store.steampowered.com/app/227080/
    brief: 'fairy tale in a Brazilian shanty town'
+   done: true
 
  - name: Kairo
    url: http://kairo.lockeddoorpuzzle.com/
    brief: 'atmospheric 3D puzzling'
-
- - name: Remembering
-   url: http://rememberingthegame.com/
-   brief: 'poetic exploration game'
 
  - name: Proteus
    url: http://www.visitproteus.com/?page_id=402&preview=true#buysection
@@ -27,6 +21,14 @@ games:
  - name: EvoLand
    url: http://evoland.shirogames.com/
    brief: 'a brief history of RPGs'
+
+ - name: Two Brothers
+   url: http://www.kickstarter.com/projects/ackkstudios/two-brothers-0
+   brief: 'GBC era adventure RPG'
+
+ - name: Remembering
+   url: http://rememberingthegame.com/
+   brief: 'poetic exploration game'
 
  - name: Perspective
    url: http://www.seewithperspective.com/
@@ -39,3 +41,19 @@ games:
  - name: Contrast
    url: http://contrastgame.com/
    brief: "portalesque that tells a sisters' story"
+
+ - name: Cult of the Wind
+   url: http://steamcommunity.com/sharedfiles/filedetails/?id=247896958
+   brief: "Nyaaaaan gagagagaga!"
+ 
+ - name: Miegakure
+   url: http://marctenbosch.com/miegakure/
+   brief: "Just another 4D puzzle/platformer?"
+
+ - name: Even the Ocean
+   url: http://www.eventheocean.com/
+   brief: "A video game for the computer."
+
+ - name: Hyper Light Drifter
+   url: http://www.heart-machine.com
+   brief: "Like a driftier S&S"

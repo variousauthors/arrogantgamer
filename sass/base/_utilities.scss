@@ -26,3 +26,10 @@
   @return $text-color;
 }
 
+.scan-lines {
+    background-color: transparentize(#eee8d5, 0.2);
+}
+
+.hidden {
+    visibility: hidden;
+}

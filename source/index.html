@@ -1,14 +1,32 @@
 ---
 layout: default
+no_header: true
 ---
 
 <div class="blog-index">
   {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
+
+  {% comment %}We want to show at least 3 boxes, so that the screen size works{% endcomment %}
+  {% if paginator.posts.size < 3 %}
+      {% assign upper = 2 %}
+  {% else %}
+      {% assign upper = paginator.posts.size - 1 %}
+  {% endif %}
+
+  {% for i in (0..upper) %}
+      {% assign post = paginator.posts[i] %}
+
+
+      {% comment %}The spacer articles will be empty and visually hidden {% endcomment %}
+      {% if post %}
+          {% assign content = post.content %}
+      {% else %}
+          {% assign content = "" %}
+      {% endif %}
+
+      <article>
+          {% include article.html %}
+      </article>
   {% endfor %}
   <div class="pagination">
     {% if paginator.next_page %}

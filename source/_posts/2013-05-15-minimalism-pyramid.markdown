@@ -2,6 +2,7 @@
 layout: post
 title: "Minimalism: Pyramid"
 date: 2013-05-15 23:37
+thumb: "pyramid.png"
 comments: false
 published: true
 categories: ["Ludum Dare", "LD26", "Paul S. Burgess"]
