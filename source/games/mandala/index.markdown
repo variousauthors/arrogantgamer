@@ -1,8 +1,14 @@
-## [Mandala][2]
-
-{% img right-side /images/mandala.png %}
+---
+layout: page
+title: "Mandala"
+comments: false
+sharing: true
+footer: true
+---
 
 Mandala was my entry for the 26th Ludum Dare (theme: minimalism). It is the first game I ever made, and its humble but visible reception has had a tremendous impact on me personally. It received a rating of 4.16 in the innovation category, landing it 23rd in that category ([view results][1]).
+
+{% img right /images/mandala.png %}
 
 It was featured on [rockpapershotgun.com][4] in May of 2013 in a list of LD26 games selected by porpentine. It was also featured on [freeindiegam.es][5], which is my favourite site for finding the kinds of games that I want to make. Needless to say, my delight was ripe fruit.
 
