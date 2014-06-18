@@ -1,8 +1,14 @@
-## [Signal][40]
-
-{% img right-side /images/signal.png %}
+---
+layout: page
+title: "Signal"
+comments: false
+sharing: true
+footer: true
+---
 
 Signal was created in [puzzlescript][10] for [#1GAM][60] in November, 2013. It was featured as a "browser pick" on [indiegames.com][50] before being officially released on [GameJolt][40]. Thank you to everyone who played it, and thank you even more to everyone who made it to the end.
+
+{% img left /images/signal.png %}
 
 On Nov 27th 2013, Signal became one of the featured games on the front-page of GameJolt. Over the course of a week, it received ~1000 plays, and a rating of 4.1/5 (24 ratings). I also earned my very first $1 as a professional game developer from GameJolt's revenue sharing. This pleases me to no end!
 
