@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: imagine | Arrogant Gamer]]></title>
+  <link href="http://www.arrogantgamer.com/blog/categories/imagine/atom.xml" rel="self"/>
+  <link href="http://www.arrogantgamer.com/"/>
+  <updated>2014-06-20T23:27:31-07:00</updated>
+  <id>http://www.arrogantgamer.com/</id>
+  <author>
+    <name><![CDATA[Arrogant Gamer]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Vision by Proxy]]></title>
+    <link href="http://www.arrogantgamer.com/blog/2013/04/06/vision-by-proxy/"/>
+    <updated>2013-04-06T21:49:00-07:00</updated>
+    <id>http://www.arrogantgamer.com/blog/2013/04/06/vision-by-proxy</id>
+    <content type="html"><![CDATA[<p>In Vision by Proxy, you are a nearly blind extraterrestrial who sees by
+stealing human eyes. When you steal a pair of eyes, looking out through them
+gives you a different perspective on the world. A child&rsquo;s world is full
+of magic, while an engineer sees the hidden uses of things. To progress
+through the game, you must collect eyes.</p>
+
+<!-- more -->
+
+
+<p><img class="left-side" src="/images/vision-by-proxy.png"></p>
+
+<p>Your alien character does not power up by collecting eyes. Instead you gradually
+gain access to different interpretations of the level&rsquo;s layout. Thus, ideally,
+the game is about remembering that you can more easily climb the little girl&rsquo;s
+play-fort then the anime chick&rsquo;s Japanese temple. Some perspectives give you access
+to the insides of things, or to a variety of floating platforms.</p>
+
+<p>This game has evolved quite a bit since its initial incarnation, and some of my
+original complaints have been addressed. In <a href="http://www.kongregate.com/games/rosyPenguin/vision-by-proxy-2nd-ed">&ldquo;Vision by Proxy: Second Edition&rdquo;</a>,
+there were only four eyes to collect, but in the more recent iteration
+(<a href="http://www.kongregate.com/games/Giraffasaurus/ms-vision-by-proxy">&ldquo;Ms Vision by Proxy&rdquo;</a>) we are introduced to seven or so. This is great! When
+we enter a level we aren&rsquo;t certain what eyes will be available, and only after
+developing a vocabulary of game objects we can begin to predict what eyes we need
+in order to progress.</p>
+
+<p>That being said, it still suffers from the levels being too big for the hero: the gameplay
+is a little like a metroidvania, but the RPG elements are not played up enough for trekking back and forth across
+the level to really be exciting. In addition, the puzzles are not really difficult or
+focused and solving them ends up feeling inevitable. This game needs an overworld map, or teleportation, or something
+to make the player feel like they are gathering information towards eventually solving
+the puzzle, rather than just walking back and forth.</p>
+
+<p>I think I&rsquo;d like to play a similar game in which there is no central &ldquo;main character&rdquo;.
+Rather than having the one character collect all the other perspectives, the player
+could switch between the perspectives, essentially teleporting around the level. This
+way the player could get an overall sense of the layout without actually having to
+trudge around it. Each available character would be trapped in some way by terrain
+that they can&rsquo;t perceive their way around. In order to advance, the player would need
+to gradually &ldquo;combine&rdquo; the available characters, allowing them to explore larger areas.
+Maybe the characters are robots with different sensors that can literally combine to
+share information. Maybe the characters don&rsquo;t occupy the same time/space, and each other
+character appears as a ghost to the rest, haunting a particular location. Communicating
+across this ethereal barrier could provide a mechanism for combining perspectives.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Death Death Evolution]]></title>
+    <link href="http://www.arrogantgamer.com/blog/2012/10/01/death-death-evolution/"/>
+    <updated>2012-10-01T19:35:00-07:00</updated>
+    <id>http://www.arrogantgamer.com/blog/2012/10/01/death-death-evolution</id>
+    <content type="html"><![CDATA[<p>In Death Death Evolution, there is no escape. You must die to advance.
+This game proposes a new relationship between the platform
+jumper and the pits. In later stages I was actively looking for places
+where I could die in a particular way, in order to unlock the tools I
+might need later. There are even levels where you can die in irrelevant
+ways, if you choose to, so that if you want to you can be stingy with death,
+or feed her to bursting in order to fully &lsquo;power up&rsquo;.</p>
+
+<!-- more -->
+
+
+<p><img class="right-side" src="/images/dde.png"></p>
+
+<p>Nice game: I want more. More different animals, evolution abilities that
+make more sense (I mean&hellip; I fell on spikes and could subsequently break
+balloons with my head). I think we could take the mechanic of dying
+for personal gain, switch up the theme a bit, and make a truly golden game
+about ghosts or reincarnation or something.</p>
+
+<p>I guess that&rsquo;s what LD24 was all about.</p>
+]]></content>
+  </entry>
+  
+</feed>

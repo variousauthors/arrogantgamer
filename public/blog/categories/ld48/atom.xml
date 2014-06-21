@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: LD48 | Arrogant Gamer]]></title>
+  <link href="http://www.arrogantgamer.com/blog/categories/ld48/atom.xml" rel="self"/>
+  <link href="http://www.arrogantgamer.com/"/>
+  <updated>2014-06-20T23:27:31-07:00</updated>
+  <id>http://www.arrogantgamer.com/</id>
+  <author>
+    <name><![CDATA[Arrogant Gamer]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Misdirection & Dreams]]></title>
+    <link href="http://www.arrogantgamer.com/blog/2014/05/02/beneath-the-surface/"/>
+    <updated>2014-05-02T18:25:30-07:00</updated>
+    <id>http://www.arrogantgamer.com/blog/2014/05/02/beneath-the-surface</id>
+    <content type="html"><![CDATA[<p>&ldquo;Beneath the Surface&rdquo; was a great theme. If you made a game that said, <em>this
+is a game that seems to be one thing, but beneath the surface it is another.&ldquo;</em>,
+then you have my love. So far, <a href="https://twitter.com/jezzamonn">@jezzamonn</a>&rsquo;s <a href="http://www.ludumdare.com/compo/ludum-dare-29/?action=preview&amp;uid=10217">Generic Adventure Game</a> is the
+game that nailed that one the best.</p>
+
+<!-- more -->
+
+
+<p>The game starts with a beautiful misdirection, playing on the investment of
+player into avatar. For the first moments of the game you play a generic hero
+who can press &lsquo;A&rsquo; to kill an adorable slime for XP. The slime is the player,
+but the player won&rsquo;t understand this right away.</p>
+
+<p>Misdirection stands in a clique at the heart of game design, facing inwards and
+passing around a pipe. Unlike the rest of the elements of play you might encounter
+in a game, a misdirection can be experience meaningfully exactly once by each player.
+It is a narrative technique, but it is one that is expressed purely in the meta
+world of interface. There is no dialog or plot twist: we are set up to expect one
+thing, and then we press an arrow key and the wrong thing happens. Simple, but
+so, so effective.</p>
+
+<p>Surround your pullquote like this {" text to be quoted "}</p>
+
+<p>Now, confused and unsure of what to <em>do</em> in the game, we are left alone to be a helpless
+slime for a while. Amnesia and helplessness are go-toes of the game-to-brain API. The
+player does not, by default, know what has happened in the moments leading up to the game
+or what the game&rsquo;s objective are. Allowing the player to stew in this uncertainty is
+always great, and many of the classic JRPG characters we know and love made it into
+our brains this way.</p>
+
+<p>Eventually the game explains: hold shift to dream.</p>
+
+<p><img class="left" src="/images/slime-dream.png" title="&ldquo;Slime is Dreaming&rdquo;" ></p>
+
+<p>As long as you hold shift, you are playing a different game: you jump higher and
+move faster, there are no heroes to kill you and the landscape is lush,
+verdant, soft, and anti-aliased. You can hop around and explore, and the game
+generally just feels <em>better</em>. Meanwhile, on the surface, you are dying repeatedly.</p>
+
+<p>For me, this is a <em>new trick</em>: a game that sucks, in which you can hold shift to play a fun
+game. What a totally rad idea! I can&rsquo;t help by imagine all the places a game could go from
+there: perhaps the slime unlocks deep and ancient secrets, or saves the world
+(perhaps the player sometimes forgets they are holding shift and that this is a dream); perhaps there
+are gates in the dream world that lead out to the aether beyond worlds, and
+the slime loses its connection to its body, only then learning to appreciate what it lost;
+perhaps the slime meets a spiritual guide that teaches it to bring its dream
+self into the real world. Perhaps!</p>
+
+<p>When your game starts with such brilliant underpinnings,
+where you take it is of little consequence. Generic Adventure Game does not
+disappoint.</p>
+]]></content>
+  </entry>
+  
+</feed>
