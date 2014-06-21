@@ -3,7 +3,7 @@ layout: post
 title: "Fade To Black"
 thumb: "the-last-night.png"
 date: 2014-06-20 22:07:15 -0700
-published: false
+published: true
 comments: false
 subtitle: "Don't shoot."
 ---
