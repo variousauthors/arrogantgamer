@@ -22,7 +22,7 @@ If you have a clever idea for a Signal level, go ahead and [hack it][30]! Let me
 
 <h4>Dimly Light Rooms</h4>
 <div class="feathers">
-{% blockquote @somebodyweknow https://twitter.com/somebodyweknow/status/405027413530144769 twitter %}There have been some amazing other PuzzleScript games, but @ArrogantGamer's "Signal" may be the very best.{% endblockquote %}
+{% blockquote @nobodybutyours https://twitter.com/somebodyweknow/status/405027413530144769 twitter %}There have been some amazing other PuzzleScript games, but @ArrogantGamer's "Signal" may be the very best.{% endblockquote %}
 {% blockquote @indiegamehunt https://twitter.com/indiegamehunt/status/405772082409000960 twitter %}Wow, nice game, man! Gonna feature on Jolt. Is it your first?{% endblockquote %}
 {% blockquote @dennishcau https://groups.google.com/forum/#!topic/puzzlescript/JUryoEY9PL0#message_snippet_iFB1o2yy2uoJ comment on Google Groups %}It feels quite meaty in terms of both the game ideas and the amount of thinking involved for the player to arrive at a solution.{% endblockquote %}
 {% blockquote fascka http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&uid=22995 comment on indiegames.com %}I hate you and love you, your game is awesome but so frustrating!!{% endblockquote %}
