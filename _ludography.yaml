@@ -1,13 +1,14 @@
 ---
 games:
- - name: Mandala
-   brief: 'a game that fades like sidewalk chalk'
-
- - name: Signal
-   brief: 'examines the player avatar relationship'
+ - name: Super Plumber Bros
+   brief: 'a kind of glitchy mariotroid'
 
  - name: Sig.NULL
    brief: 'masopuzzler, hi-rez remake of Signal'
 
- - name: Super Plumber Bros
-   brief: 'a kind of glitchy mariotroid'
+ - name: Signal
+   brief: 'examines the player avatar relationship'
+
+ - name: Mandala
+   brief: 'a game that fades like sidewalk chalk'
+
