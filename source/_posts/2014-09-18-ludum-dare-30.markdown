@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Ludum Dare 30"
+date: 2014-09-18 22:10:52 -0700
+comments: true
+categories: 
+---
+
+Her. Problematic! Lots of little things bugged me about this. First and foremost,
+it undermines its own goals by being so chatty. A game that tries to frame or a
+explore a particular phenomenon as a game system should measure its success or
+failure on how well that phenomenon is communicated without falling back on the
+tropes of old media. Not to say text isn't welcome! It is unavoidable, as @nomoon
+points out the clouds, the colour palette, and the music are all text. Still
+printing the words "you feel sad because life is becoming more difficult" irks
+me precisely because I was already feeling sad for exactly that reason. The
+game is getting harder, the notes are becoming more sour.
+
+I should definitely also say: her is the objective female pronoun, and the two
+characters are blue and pink. So I am definitely the blue one, and can blame the
+increase in difficultly on the pink one since she's not keeping up. Making the
+roles more ambiguous would allow the player to choose who they are and to understand
+the game better. It would not have hurt this game at all to call it "Us" and offer
+less clearly gendered characters.
+
+All of this is clearly a matter of choice.
+
+I should probably play it all the way through and also choose a second
+LD30 game.
