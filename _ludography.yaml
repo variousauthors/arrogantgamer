@@ -1,5 +1,8 @@
 ---
 games:
+ - name: Gunship Souls
+   brief: 'battle methuselage as the last organic pilot'
+
  - name: Super Plumber Bros
    brief: 'a kind of glitchy mariotroid'
 
@@ -11,4 +14,3 @@ games:
 
  - name: Mandala
    brief: 'a game that fades like sidewalk chalk'
-
