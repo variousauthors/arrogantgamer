@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "I love you, slime kid!"
-thumb: "clockwork_mv.png"
+thumb: "logodaedalus.png"
 date: 2014-10-19 19:44:23 -0700
-published: false
+published: true
 comments: false
 subtitle: "A sense of space."
 layout: post
@@ -20,22 +20,28 @@ chance to play [With Those We Love Left Alive][2], and was really impressed.
 
 I always feel that settings like [Pendelton Ward's "Land of Ooo"][3] are very much psychic landscapes:
 I get the impression that I am inside the author, reading a stream of consciousness
-written in code on the insides of their veins. It takes a special kind of storytelling
+etched in code on the skin of their veins. It takes a special kind of storytelling
 to be able to render such settings intelligibly, and that's something I love to death
 about all of Porpentine's work. Just like every episode of Adventure Time is refreshing
 and strange -- but consistent -- Porpentine's games always feel to me like they are facets
 of one place... Porpentine! Standing on my balcony, looking through my telescope, I swear
-I can just make out dancing columns of smop rising from the swamp factory.
+I can just make out columns of sludge-mist dancing above the swamp factory.
 
-Asking humans to draw on themselves as part of the activity of your game is probably
-not always going to work. I didn't play [Armada][4] right away; I always get around to
-Porpentine's works because I trust her as an artist and she inspires me, but it often takes me a while.
-Seeing people posting photos of their arms (I keep almost calling them screenshots... what's wrong
-with me!?) made this release into an event for me. I really felt like something
-was happening, and that I wanted to be part of it.
+{% pullquote %}
+Watching twitter fill up with photos (I keep almost
+calling them screenshots... what's wrong with me!?) of player's forearms made the release
+of With Those We Love Left Alive feel like an international event. I really
+felt like something was happening -- like something was brewing -- and I
+wanted to be part of it right away. It felt like this could go away at any moment.
+Porpentine's work inspires me, and I trust her
+as an artist, so it's inevitable that I play her games, but it often takes time.
+It took me about a year to go download and play through [Armada][4], whereas I was
+ontop of this one immediately. Asking humans to draw on themselves as part playing her
+games is {" some serious next-level porp "}!
+{% endpullquote %}
 
-That's all super cool and very clever, but the strength of this work is deeper than that. The game does an excellent
-job of creating space, and encouraging engagement and ritual. 
+That's all super cool and very clever, but it is also a gimmick akin releasing a game
+for Oculus. The strength of this work is deeper than that:
 
 In With Those We Love Left Alive, you spend your time in two places: the palace, and
 the city. Mechanically, this isn't a game about exploring or finding things; it is
@@ -56,25 +62,27 @@ turning point in the story: celebrations surrounding the crushing of Princess sp
 memories of a painful past; or encounters with a once lover. These events, strung
 together by themselves, would make a fine work of interactive fiction. No question!
 If this game had just been about clicking through those events and drawing on your body,
-it would have been good. What makes this game amazing, though, is the care given to
+it would have been good. What makes it amazing, though, is the care given to
 the time you spend dithering about between these important moments. {"Porpentine puts
 you in a tight, compelling, playground and gives you a "skip" button to use at your
 discretion"}.
 {% endpullquote %}
 
-{% img left /images/courtoly.jpg images used with permission of @courtoly %}
+{% img left /images/courtoly.jpg image used with permission of @courtoly %}
 
-I explored With Those We Love Left Alive almost compulsively. Every day I would wake
-up, step out onto my balcony and look through the telescope
-I had crafted, at the wastes or the death jungle. Satisfied, I would daily walk out to
+I explored With Those We Love Left Alive almost compulsively. It became a ritual: Every day I would wake
+up, step out onto my balcony and watch, through the telescope
+I had crafted, the vast wastes or the denizens of the death jungle. Satisfied, I would daily walk to
 the city, to look for my little friend the slime kid in the maze-like streets. Usually
 my feet would then carry me to the canal or the temple, to see what could be seen.
-Inevitably my stroll would bring me to the dream distillery, where I sampled what I
-could not have. I basically never missed a day, and when the plot points were heavy
+Finally, unerringly, my stroll would end at the dream distillery, where I would sample that
+which I could not have. I basically never missed a day, and when the plot points were heavy
 I would actually spend _more_ time dallying in the world... maybe as a coping mechanism?
 
-<br>
-My experience reminded me of a [tweet][9] I made about [Howling Dogs][8] back in 2012,
+Tiny personal spaces, and tiny personal rituals, feel to me like a common thread through Porpentine's
+work. My experience playing With Those We Love Left Alive
+reminded me of a [tweet][9] I made about [Howling Dogs][8] back in 2012, when I first
+came across her work:
 
 {% blockquote %}
 How interesting! I didn't sleep forever. Is that a good thing? I just wanted one more citrus flavoured nutrition pack. Thanks @aliendovecote
@@ -84,14 +92,14 @@ The thing I loved most about that game (somehow) was the ritual of washing, eati
 and drinking. I remember there was a choice that seemed pretty important at the end
 of that game, and that my decision was based on actually just wanting to continue
 to repeat that ritual. I didn't want to lose that, and I guess I was in a position to?
-I would have to go back and replay (and maybe I will!) to know the details, but the
+I would have to go back and replay (and maybe I will!) to know for certain, but the
 point is: I enjoyed the ritual more than whatever may have been the message that I
 was being asked to embrace. When the game ended, it felt ambiguous as to whether my
 ending had been an ending at all.
 
 This didn't happen in With Those We Love Left Alive: despite the ritual elements
 having earned my engagement, I was also invested enough in the plot (the events
-happening outside of my daily ritual) that when it came time to abandon it,
+happening outside of my daily ritual) that when it came time to abandon them,
 I didn't even notice whether I was given an option not to! Maybe I could have spurned
 my former lover and continued to while away the days in a soup of decadence and
 dread! The point is: I didn't. The game let me establish myself in a space I
@@ -100,6 +108,8 @@ really worth.
 
 With any luck, I've internalized some of this ^o^// thanks Porp!
 
+<small>_forearms provided by [@courtoly][11] and [@logodaedalus][10], who are lovely people_</small>
+
 [0]: https://twitter.com/aliendovecote
 [1]: https://twitter.com/dani9988/status/536290349845872640
 [2]: http://aliendovecote.com/uploads/twine/empress/empress.html
@@ -107,3 +117,5 @@ With any luck, I've internalized some of this ^o^// thanks Porp!
 [4]: http://aliendovecote.com/armada.html
 [8]: http://aliendovecote.com/uploads/twine/howling%20dogs.html#2m
 [9]: https://twitter.com/ArrogantGamer/statuses/255083585076330496
+[10]: https://twitter.com/logodaedalus
+[11]: https://twitter.com/Courtoly
